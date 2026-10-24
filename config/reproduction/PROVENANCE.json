@@ -1,0 +1,146 @@
+{
+  "files": [
+    {
+      "copy": "network.net.xml",
+      "copy_sha256": "110a31d99f0adb2b8bb12a835272476eb3aa54e7eb1a74bbe5d1c47f68bd3b93",
+      "source": "artifacts/stage6_baseline_localization_20260921_v1/LOC_M3350_S17/engineering/build_attempts/TV_BUILD01/network.net.xml",
+      "source_sha256": "887c232483f0c68dc024334ff5997250d7d36299ab2744bdcf49d5a314c700ca",
+      "transformation": "project root prefix in generated netconvert comment replaced"
+    },
+    {
+      "copy": "open_s17/demand.rou.xml",
+      "copy_sha256": "99151ed51419c8d490c0f0b1a91bea23f6be70c5486890a04e1e06b3de5d808e",
+      "source": "artifacts/stage6_boundary_search_20261002_v1/inputs/M3600_R900_S17/demand.rou.xml",
+      "source_sha256": "99151ed51419c8d490c0f0b1a91bea23f6be70c5486890a04e1e06b3de5d808e",
+      "transformation": "none"
+    },
+    {
+      "copy": "open_s17/scenario.add.xml",
+      "copy_sha256": "88d3ba055693c30797e3f3ab09e33c3b2c20c7af6f663ae10ee23c10451c6a07",
+      "source": "artifacts/stage6_boundary_search_20261002_v1/inputs/M3600_R900_S17/scenario.add.xml",
+      "source_sha256": "de029a937d0d2713d2634f5b14e2f5ab39e7cbdf32f02fc33763aac7f17c3400",
+      "transformation": "absolute input/output paths replaced with package-relative paths"
+    },
+    {
+      "copy": "open_s17/scenario.sumocfg",
+      "copy_sha256": "a04542223485c0801d5d7150cd7cfbd8adc954a01a4f89902da6613230531937",
+      "source": "artifacts/stage6_boundary_search_20261002_v1/inputs/M3600_R900_S17/scenario.sumocfg",
+      "source_sha256": "8b7e9209244e8dfa6cc142bd579740884fa438ac5d622fd301e81e73d05f9bf5",
+      "transformation": "absolute input/output paths replaced with package-relative paths"
+    },
+    {
+      "copy": "v15_s17/demand.rou.xml",
+      "copy_sha256": "99151ed51419c8d490c0f0b1a91bea23f6be70c5486890a04e1e06b3de5d808e",
+      "source": "artifacts/stage6_standard_metering_execution_20261003_v1/inputs/M3600_R900_S17_ALINEA_TRACI_V15/demand.rou.xml",
+      "source_sha256": "99151ed51419c8d490c0f0b1a91bea23f6be70c5486890a04e1e06b3de5d808e",
+      "transformation": "none"
+    },
+    {
+      "copy": "v15_s17/scenario.add.xml",
+      "copy_sha256": "88d3ba055693c30797e3f3ab09e33c3b2c20c7af6f663ae10ee23c10451c6a07",
+      "source": "artifacts/stage6_standard_metering_execution_20261003_v1/inputs/M3600_R900_S17_ALINEA_TRACI_V15/scenario.add.xml",
+      "source_sha256": "a79ee047e301e62b7dca0ffdd1bbd187b332722b47cedc74e301bd3de480101d",
+      "transformation": "absolute input/output paths replaced with package-relative paths"
+    },
+    {
+      "copy": "v15_s17/scenario.sumocfg",
+      "copy_sha256": "a04542223485c0801d5d7150cd7cfbd8adc954a01a4f89902da6613230531937",
+      "source": "artifacts/stage6_standard_metering_execution_20261003_v1/inputs/M3600_R900_S17_ALINEA_TRACI_V15/scenario.sumocfg",
+      "source_sha256": "0c66945a4bf6fb9b18b06bf3dac8d05d0448c8ee800969d5560080d16bd12da7",
+      "transformation": "absolute input/output paths replaced with package-relative paths"
+    },
+    {
+      "copy": "open_s23/demand.rou.xml",
+      "copy_sha256": "d6c89772b9038c459f9f80631834909287d7a0b8ed588356b2ac2d8affac9a08",
+      "source": "artifacts/stage6_boundary_search_20261002_v1/inputs/M3600_R900_S23/demand.rou.xml",
+      "source_sha256": "d6c89772b9038c459f9f80631834909287d7a0b8ed588356b2ac2d8affac9a08",
+      "transformation": "none"
+    },
+    {
+      "copy": "open_s23/scenario.add.xml",
+      "copy_sha256": "88d3ba055693c30797e3f3ab09e33c3b2c20c7af6f663ae10ee23c10451c6a07",
+      "source": "artifacts/stage6_boundary_search_20261002_v1/inputs/M3600_R900_S23/scenario.add.xml",
+      "source_sha256": "3fd90aed90ad8c974a467f91b00343522287483fbe81dcc6a264b9b2bbbc0a1c",
+      "transformation": "absolute input/output paths replaced with package-relative paths"
+    },
+    {
+      "copy": "open_s23/scenario.sumocfg",
+      "copy_sha256": "815c8f9bbc2c3363d3871b2b17aae7901ad000bad620eea34c756719817d44d4",
+      "source": "artifacts/stage6_boundary_search_20261002_v1/inputs/M3600_R900_S23/scenario.sumocfg",
+      "source_sha256": "db9767973f333434c27a602264e406ae4ce67fc599380b35612a2e7e69d67dd4",
+      "transformation": "absolute input/output paths replaced with package-relative paths"
+    },
+    {
+      "copy": "v15_s23/demand.rou.xml",
+      "copy_sha256": "d6c89772b9038c459f9f80631834909287d7a0b8ed588356b2ac2d8affac9a08",
+      "source": "artifacts/stage6_standard_metering_execution_20261003_v1/inputs/M3600_R900_S23_ALINEA_TRACI_V15/demand.rou.xml",
+      "source_sha256": "d6c89772b9038c459f9f80631834909287d7a0b8ed588356b2ac2d8affac9a08",
+      "transformation": "none"
+    },
+    {
+      "copy": "v15_s23/scenario.add.xml",
+      "copy_sha256": "88d3ba055693c30797e3f3ab09e33c3b2c20c7af6f663ae10ee23c10451c6a07",
+      "source": "artifacts/stage6_standard_metering_execution_20261003_v1/inputs/M3600_R900_S23_ALINEA_TRACI_V15/scenario.add.xml",
+      "source_sha256": "5b120796aecccb058985ab794939a5c2b735faeabf50bdd1935938ce9dcce72c",
+      "transformation": "absolute input/output paths replaced with package-relative paths"
+    },
+    {
+      "copy": "v15_s23/scenario.sumocfg",
+      "copy_sha256": "815c8f9bbc2c3363d3871b2b17aae7901ad000bad620eea34c756719817d44d4",
+      "source": "artifacts/stage6_standard_metering_execution_20261003_v1/inputs/M3600_R900_S23_ALINEA_TRACI_V15/scenario.sumocfg",
+      "source_sha256": "a2b6ecef86e9082be0646a47994b31841e74ce76bd5bd7edeaabc013549ef7c3",
+      "transformation": "absolute input/output paths replaced with package-relative paths"
+    },
+    {
+      "copy": "open_s42/demand.rou.xml",
+      "copy_sha256": "6c3e8a3943a14f24cf862b62b5ea2417ebf9bd49d524fff6319dd2778fe66076",
+      "source": "artifacts/stage6_boundary_search_20261002_v1/inputs/M3600_R900_S42/demand.rou.xml",
+      "source_sha256": "6c3e8a3943a14f24cf862b62b5ea2417ebf9bd49d524fff6319dd2778fe66076",
+      "transformation": "none"
+    },
+    {
+      "copy": "open_s42/scenario.add.xml",
+      "copy_sha256": "88d3ba055693c30797e3f3ab09e33c3b2c20c7af6f663ae10ee23c10451c6a07",
+      "source": "artifacts/stage6_boundary_search_20261002_v1/inputs/M3600_R900_S42/scenario.add.xml",
+      "source_sha256": "e82110a550d89a8e0e3048bf2c7d5b36ef5e694c1f1428aff5279f9479fca8c8",
+      "transformation": "absolute input/output paths replaced with package-relative paths"
+    },
+    {
+      "copy": "open_s42/scenario.sumocfg",
+      "copy_sha256": "c1e2ccc58a5fd6c24d36eeee8c50133dd80a2f9ea09ff17ed7a53cdd54b8173d",
+      "source": "artifacts/stage6_boundary_search_20261002_v1/inputs/M3600_R900_S42/scenario.sumocfg",
+      "source_sha256": "e518ba3b671c8fcc78823958753c410be4aa5fea517681307c0780e67addb286",
+      "transformation": "absolute input/output paths replaced with package-relative paths"
+    },
+    {
+      "copy": "v15_s42/demand.rou.xml",
+      "copy_sha256": "6c3e8a3943a14f24cf862b62b5ea2417ebf9bd49d524fff6319dd2778fe66076",
+      "source": "artifacts/stage6_standard_metering_execution_20261003_v1/inputs/M3600_R900_S42_ALINEA_TRACI_V15/demand.rou.xml",
+      "source_sha256": "6c3e8a3943a14f24cf862b62b5ea2417ebf9bd49d524fff6319dd2778fe66076",
+      "transformation": "none"
+    },
+    {
+      "copy": "v15_s42/scenario.add.xml",
+      "copy_sha256": "88d3ba055693c30797e3f3ab09e33c3b2c20c7af6f663ae10ee23c10451c6a07",
+      "source": "artifacts/stage6_standard_metering_execution_20261003_v1/inputs/M3600_R900_S42_ALINEA_TRACI_V15/scenario.add.xml",
+      "source_sha256": "c4290e7b39613e41b603c90507ab06c0440b7019aa6e2be7a00ec468a38e788f",
+      "transformation": "absolute input/output paths replaced with package-relative paths"
+    },
+    {
+      "copy": "v15_s42/scenario.sumocfg",
+      "copy_sha256": "c1e2ccc58a5fd6c24d36eeee8c50133dd80a2f9ea09ff17ed7a53cdd54b8173d",
+      "source": "artifacts/stage6_standard_metering_execution_20261003_v1/inputs/M3600_R900_S42_ALINEA_TRACI_V15/scenario.sumocfg",
+      "source_sha256": "1868dbbcb7223f91057e19ed39015216510fd00b1a063bce2ed233bb6594304e",
+      "transformation": "absolute input/output paths replaced with package-relative paths"
+    }
+  ],
+  "historical_code_sha256": {
+    "control.py": "a282302ecc5fefd8d1810c07d1340f9bd1dbe0e3316b718ce991e5c5bea185ab",
+    "open_runner.py": "1484b8d754bce55538cbd95ee06bfe110237b802a9a153bab47da701c2d6adcd",
+    "safe_actuator_v10.py": "c48b743972e44cdac8d53b6276efeed75c8bcd45a36c13940735e9d3f317f2d7",
+    "v15_runner.py": "cb05feb9beb90aa41508102d4e37f897f942bf26278428ad868f04f1816fd0b9"
+  },
+  "schema": "STAGE6_PUBLIC_REPLAY_INPUTS_V1",
+  "scientific_note": "Paths only are changed in XML copies. Historical cards and release receipts are not required to run this public package.",
+  "scope": "M3600/R900, OPEN and V15, seeds 17/23/42, exploratory only"
+}

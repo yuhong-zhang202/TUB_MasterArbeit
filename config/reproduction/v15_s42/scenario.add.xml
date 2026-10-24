@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+  <laneAreaDetector id="shared_boundary_e2" lane="shared_approach_0" pos="0" endPos="238.8" period="30" timeThreshold="1" speedThreshold="1.3888888888888888" jamThreshold="10" friendlyPos="false" file="outputs/shared_boundary_e2.xml" />
+  <laneAreaDetector id="ramp_storage_e2" lane="ramp_storage_0" pos="0" endPos="204.49" period="30" timeThreshold="1" speedThreshold="1.3888888888888888" jamThreshold="10" friendlyPos="false" file="outputs/ramp_storage_e2.xml" />
+  <inductionLoop id="p1_main_up_1300_l0" lane="main_up_0" pos="1300" period="30" length="0" friendlyPos="false" file="outputs/p1_main_up_1300_l0.xml" />
+  <inductionLoop id="p1_main_up_1300_l1" lane="main_up_1" pos="1300" period="30" length="0" friendlyPos="false" file="outputs/p1_main_up_1300_l1.xml" />
+  <inductionLoop id="p1_merge_section_20_l0" lane="merge_section_0" pos="20" period="30" length="0" friendlyPos="false" file="outputs/p1_merge_section_20_l0.xml" />
+  <inductionLoop id="p1_merge_section_20_l1" lane="merge_section_1" pos="20" period="30" length="0" friendlyPos="false" file="outputs/p1_merge_section_20_l1.xml" />
+  <inductionLoop id="p1_merge_section_20_l2" lane="merge_section_2" pos="20" period="30" length="0" friendlyPos="false" file="outputs/p1_merge_section_20_l2.xml" />
+  <inductionLoop id="p1_main_down_20_l0" lane="main_down_0" pos="20" period="30" length="0" friendlyPos="false" file="outputs/p1_main_down_20_l0.xml" />
+  <inductionLoop id="p1_main_down_20_l1" lane="main_down_1" pos="20" period="30" length="0" friendlyPos="false" file="outputs/p1_main_down_20_l1.xml" />
+  <inductionLoop id="p1_main_down_200_l0" lane="main_down_0" pos="200" period="30" length="0" friendlyPos="false" file="outputs/p1_main_down_200_l0.xml" />
+  <inductionLoop id="p1_main_down_200_l1" lane="main_down_1" pos="200" period="30" length="0" friendlyPos="false" file="outputs/p1_main_down_200_l1.xml" />
+  <timedEvent type="SaveTLSStates" dest="outputs/tls_states.xml" />
+  <WAUT id="targeted_program_selector" refTime="0" startProg="A_OPEN" />
+  <wautJunction wautID="targeted_program_selector" junctionID="ramp_mid" />
+</additional>

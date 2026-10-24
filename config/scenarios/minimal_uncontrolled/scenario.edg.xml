@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://sumo.dlr.de/xsd/edges_file.xsd">
+    <!-- All lengths, speeds, priorities, and lane counts are technical placeholders. -->
+    <edge id="main_up" from="main_in" to="freeway_merge" priority="3" numLanes="2" speed="33.33"/>
+    <edge id="main_down" from="freeway_merge" to="main_out" priority="3" numLanes="2" speed="33.33"/>
+
+    <edge id="urban_in" from="urban_in" to="urban_tls" priority="2" numLanes="1" speed="13.89"/>
+    <edge id="shared_approach" from="urban_tls" to="urban_diverge" priority="2" numLanes="1" speed="13.89"/>
+    <edge id="urban_out" from="urban_diverge" to="urban_out" priority="2" numLanes="1" speed="13.89"/>
+
+    <edge id="cross_in" from="cross_in" to="urban_tls" priority="1" numLanes="1" speed="13.89"/>
+    <edge id="cross_out" from="urban_tls" to="cross_out" priority="1" numLanes="1" speed="13.89"/>
+
+    <edge id="ramp_storage" from="urban_diverge" to="ramp_mid" priority="2" numLanes="1" speed="22.22"
+          shape="260,-160 340,-80 420,-35"/>
+    <edge id="ramp_accel" from="ramp_mid" to="freeway_merge" priority="2" numLanes="1" speed="27.78"
+          shape="500,-15 550,-5"/>
+</edges>

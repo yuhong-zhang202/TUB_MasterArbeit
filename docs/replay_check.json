@@ -1,0 +1,3225 @@
+{
+  "schema": "STAGE6_PUBLIC_REPLAY_CHECK_V1",
+  "checked_on": "2026-10-24",
+  "scientific_status": "MATCH_ALL_SIX_ARCHIVED_OBSERVATION_SETS",
+  "execution_status": "FIVE_WRAPPERS_COMPLETED_ONE_POSTVALIDATED_AFTER_IMPORT_FAILURE",
+  "interpretation": "All six native simulations exited zero. V15 seed17 retained its original FAILED wrapper receipt because of a post-run import error; its existing outputs subsequently passed separate structural validation and independent scientific comparison. No traffic simulation was repeated. This is a historical exploratory replay, not formal scientific qualification.",
+  "comparison_file_count": 123,
+  "paired_table_row_count": 12,
+  "planned_and_arrived_per_run": 4050,
+  "verifier_sha256": "e878c3d9c3fed7226d41086f7f34ae239fd66213b6e2646897f28599cc5152e6",
+  "paired_table_sha256": "a4194e068204252551fdda60528d5d2055de64dec5e091461195ecd14bc7b726",
+  "archive_manifest_sha256": "9566290003860fe50bed02c570cad6510cc3503bc555cd6e172abd527082a2fa",
+  "independent_check_report_sha256": "722f91ebd0b184f8d0c0d3d5d0292af99420911060d265c89922dc04d9cbee01",
+  "execution_evidence": {
+    "runs": [
+      {
+        "case": "open_s17",
+        "original_receipt_sha256": "4442d8583fafbf1252685d36d8ab124685843bf94da863a4a6d56d4087d2e395",
+        "original_wrapper_status": "COMPLETED",
+        "original_failure": null,
+        "native_process_return_code": 0,
+        "process_wall_seconds": 2.7192785419756547,
+        "wrapper_wall_seconds": 3.6302245839033276,
+        "output_bytes": 15169034,
+        "wrapper_sha256": "f64e04ff889312055a7ecdb9a229d08ee323b0225649b720b02192645455539d",
+        "runtime": {
+          "python_version": "3.13.0",
+          "sumo_version": "Eclipse SUMO sumo 1.26.0",
+          "sumo_binary_sha256": "3bd1eaa3b167fb527ac33b154dfb57b41b9a40d5bc3e26246489824dd7977179",
+          "historical_build_match": true
+        },
+        "recorded_output_hashes_rechecked": true
+      },
+      {
+        "case": "open_s23",
+        "original_receipt_sha256": "bbc97a2f69fced0cb7f3b265a2a2757b468c980e0a54dcaae19758c23946a069",
+        "original_wrapper_status": "COMPLETED",
+        "original_failure": null,
+        "native_process_return_code": 0,
+        "process_wall_seconds": 2.0935927079990506,
+        "wrapper_wall_seconds": 2.8189039999851957,
+        "output_bytes": 12931898,
+        "wrapper_sha256": "167765120d1d22c75b7a8330297a7682d532e2947af65be13a31ea7e09c7db33",
+        "runtime": {
+          "python_version": "3.13.0",
+          "sumo_version": "Eclipse SUMO sumo 1.26.0",
+          "sumo_binary_sha256": "3bd1eaa3b167fb527ac33b154dfb57b41b9a40d5bc3e26246489824dd7977179",
+          "historical_build_match": true
+        },
+        "recorded_output_hashes_rechecked": true
+      },
+      {
+        "case": "open_s42",
+        "original_receipt_sha256": "6eb9d57970b90b74a54bb32663b6ed92eb2d70d0c68e31c1119d2530117ff91b",
+        "original_wrapper_status": "COMPLETED",
+        "original_failure": null,
+        "native_process_return_code": 0,
+        "process_wall_seconds": 2.9485666250111535,
+        "wrapper_wall_seconds": 3.8164994589751586,
+        "output_bytes": 14297556,
+        "wrapper_sha256": "167765120d1d22c75b7a8330297a7682d532e2947af65be13a31ea7e09c7db33",
+        "runtime": {
+          "python_version": "3.13.0",
+          "sumo_version": "Eclipse SUMO sumo 1.26.0",
+          "sumo_binary_sha256": "3bd1eaa3b167fb527ac33b154dfb57b41b9a40d5bc3e26246489824dd7977179",
+          "historical_build_match": true
+        },
+        "recorded_output_hashes_rechecked": true
+      },
+      {
+        "case": "v15_s17",
+        "original_receipt_sha256": "6c7a8bad9db9edd9b9f7e10c8cbf99c542720d0848a82ec291f38134ffaafd11",
+        "original_wrapper_status": "FAILED",
+        "original_failure": "ModuleNotFoundError: No module named 'src'",
+        "native_process_return_code": 0,
+        "process_wall_seconds": 16.792659375001676,
+        "wrapper_wall_seconds": 16.813951416988857,
+        "output_bytes": 34218217,
+        "wrapper_sha256": "f64e04ff889312055a7ecdb9a229d08ee323b0225649b720b02192645455539d",
+        "runtime": {
+          "python_version": "3.13.0",
+          "sumo_version": "Eclipse SUMO sumo 1.26.0",
+          "sumo_binary_sha256": "3bd1eaa3b167fb527ac33b154dfb57b41b9a40d5bc3e26246489824dd7977179",
+          "historical_build_match": true
+        },
+        "recorded_output_hashes_rechecked": true
+      },
+      {
+        "case": "v15_s23",
+        "original_receipt_sha256": "ecf69317a83c3fc851331cf07bc4e31adb9037b41677c8a8f0bf1a0790afd19c",
+        "original_wrapper_status": "COMPLETED",
+        "original_failure": null,
+        "native_process_return_code": 0,
+        "process_wall_seconds": 15.921025500050746,
+        "wrapper_wall_seconds": 16.877938040997833,
+        "output_bytes": 34714603,
+        "wrapper_sha256": "167765120d1d22c75b7a8330297a7682d532e2947af65be13a31ea7e09c7db33",
+        "runtime": {
+          "python_version": "3.13.0",
+          "sumo_version": "Eclipse SUMO sumo 1.26.0",
+          "sumo_binary_sha256": "3bd1eaa3b167fb527ac33b154dfb57b41b9a40d5bc3e26246489824dd7977179",
+          "historical_build_match": true
+        },
+        "recorded_output_hashes_rechecked": true
+      },
+      {
+        "case": "v15_s42",
+        "original_receipt_sha256": "8a6d072cda6a9f9dfe9cb617657b3e34995172175781c59b1702c6b43668077f",
+        "original_wrapper_status": "COMPLETED",
+        "original_failure": null,
+        "native_process_return_code": 0,
+        "process_wall_seconds": 16.605981749948114,
+        "wrapper_wall_seconds": 17.57138529093936,
+        "output_bytes": 35074322,
+        "wrapper_sha256": "167765120d1d22c75b7a8330297a7682d532e2947af65be13a31ea7e09c7db33",
+        "runtime": {
+          "python_version": "3.13.0",
+          "sumo_version": "Eclipse SUMO sumo 1.26.0",
+          "sumo_binary_sha256": "3bd1eaa3b167fb527ac33b154dfb57b41b9a40d5bc3e26246489824dd7977179",
+          "historical_build_match": true
+        },
+        "recorded_output_hashes_rechecked": true
+      }
+    ],
+    "v15_s17_postvalidation": {
+      "original_status": "FAILED",
+      "original_receipt_sha256": "6c7a8bad9db9edd9b9f7e10c8cbf99c542720d0848a82ec291f38134ffaafd11",
+      "original_failure": "ModuleNotFoundError: No module named 'src'",
+      "postvalidation_code_sha256": "167765120d1d22c75b7a8330297a7682d532e2947af65be13a31ea7e09c7db33",
+      "postvalidation_status": "OUTPUT_STRUCTURE_VALID",
+      "traffic_rerun": false
+    },
+    "postvalidation_receipt_sha256": "5938579667401ef8f9d79709bee50d2ad211eadaae3b87464dbfa072818c72ea",
+    "v15_worker_files_sha256": {
+      "src/reproduction/runtime_v15.py": "8a53e1c6471cbdd6f581c7bc966345eca7f63c06f2cc7e76a12d6838313c468f",
+      "src/reproduction/control.py": "a282302ecc5fefd8d1810c07d1340f9bd1dbe0e3316b718ce991e5c5bea185ab",
+      "src/reproduction/safe_actuator_v10.py": "c48b743972e44cdac8d53b6276efeed75c8bcd45a36c13940735e9d3f317f2d7"
+    },
+    "worker_history_note": "Engineering execution review reports these worker files unchanged for all three V15 executions; their current hashes were independently checked. Only wrapper import setup changed between the first two and remaining four cases."
+  },
+  "comparison": {
+    "scope": "Historical exploratory replay; no formal experiment inference",
+    "xml_exceptions": [
+      "Generated XML comments and whitespace formatting",
+      "sumo_summary.xml step@duration only: wall-clock execution time"
+    ],
+    "files": [
+      {
+        "file": "open_s17/fcd.xml.gz",
+        "archive": {
+          "sha256": "6c12b58330cfc4cd970e79fc3b16166a86e80562a6283fd4adc3d58d02bd4885",
+          "element_counts": {
+            "fcd-export": 1,
+            "timestep": 4200,
+            "vehicle": 536629
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "6c12b58330cfc4cd970e79fc3b16166a86e80562a6283fd4adc3d58d02bd4885",
+          "element_counts": {
+            "fcd-export": 1,
+            "timestep": 4200,
+            "vehicle": 536629
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/lanechanges.xml",
+        "archive": {
+          "sha256": "72796a14f23bf6bbaa63a988b7ce7e5c2003b779e5ee3a80ded9db93e4a9ab2b",
+          "element_counts": {
+            "change": 1305,
+            "lanechanges": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "72796a14f23bf6bbaa63a988b7ce7e5c2003b779e5ee3a80ded9db93e4a9ab2b",
+          "element_counts": {
+            "change": 1305,
+            "lanechanges": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/p1_main_down_200_l0.xml",
+        "archive": {
+          "sha256": "02ffa4631839ff56d39af0f5289d0f9209a2f9fdacbca5c132f5fcf40017401e",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "02ffa4631839ff56d39af0f5289d0f9209a2f9fdacbca5c132f5fcf40017401e",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/p1_main_down_200_l1.xml",
+        "archive": {
+          "sha256": "c183cbe2246a9ecd53ee39c16043f77d6f735f280158b1c1af437407512fdf9e",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "c183cbe2246a9ecd53ee39c16043f77d6f735f280158b1c1af437407512fdf9e",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/p1_main_down_20_l0.xml",
+        "archive": {
+          "sha256": "0d9e9821099853369328e17d67a64587a9bc457f322c22e4a30c23a5eef18d39",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "0d9e9821099853369328e17d67a64587a9bc457f322c22e4a30c23a5eef18d39",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/p1_main_down_20_l1.xml",
+        "archive": {
+          "sha256": "d63d3881a4d81020d79312b91adc2ffa3663260e84274e9fde943c9dfb4d1c6e",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "d63d3881a4d81020d79312b91adc2ffa3663260e84274e9fde943c9dfb4d1c6e",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/p1_main_up_1300_l0.xml",
+        "archive": {
+          "sha256": "4c97b9da6ba305b89273db53e6a8c7dcdd8ea58918eeb9353f9ce528bf9215dd",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "4c97b9da6ba305b89273db53e6a8c7dcdd8ea58918eeb9353f9ce528bf9215dd",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/p1_main_up_1300_l1.xml",
+        "archive": {
+          "sha256": "e997b5f0a43991eb30887540a89b1e4ca890031b4f3dc6b4e9e660c6bb29f894",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "e997b5f0a43991eb30887540a89b1e4ca890031b4f3dc6b4e9e660c6bb29f894",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/p1_merge_section_20_l0.xml",
+        "archive": {
+          "sha256": "d8481b832daff66a9986a08e8755709cacc169e55bb5f95a4301df199ec9bbbf",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "d8481b832daff66a9986a08e8755709cacc169e55bb5f95a4301df199ec9bbbf",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/p1_merge_section_20_l1.xml",
+        "archive": {
+          "sha256": "da66a68f9b992a0c76701c4535687462bd586ce0f36981e36e7ab2741bc20041",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "da66a68f9b992a0c76701c4535687462bd586ce0f36981e36e7ab2741bc20041",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/p1_merge_section_20_l2.xml",
+        "archive": {
+          "sha256": "6bd4d3590cc0cc05f9406a0059b50dc86f43243de6867e3167748db1bc5ddcee",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "6bd4d3590cc0cc05f9406a0059b50dc86f43243de6867e3167748db1bc5ddcee",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/queues.xml",
+        "archive": {
+          "sha256": "7fc6a4e7f04446ff71c1b2b5b0970f4910e72f82f7e58b21f4e06cebbb7ebb23",
+          "element_counts": {
+            "data": 4200,
+            "lane": 6868,
+            "lanes": 4200,
+            "queue-export": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "7fc6a4e7f04446ff71c1b2b5b0970f4910e72f82f7e58b21f4e06cebbb7ebb23",
+          "element_counts": {
+            "data": 4200,
+            "lane": 6868,
+            "lanes": 4200,
+            "queue-export": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/ramp_storage_e2.xml",
+        "archive": {
+          "sha256": "f9aea28f3876f82889cae5941728d994cec95e06821c37b8c07e6ee29022be35",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "f9aea28f3876f82889cae5941728d994cec95e06821c37b8c07e6ee29022be35",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/shared_boundary_e2.xml",
+        "archive": {
+          "sha256": "ea898298fb4c42ee5ccacde1e49da35812cf983b91673407254257266ca68769",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "ea898298fb4c42ee5ccacde1e49da35812cf983b91673407254257266ca68769",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/sumo_summary.xml",
+        "archive": {
+          "sha256": "a5a1d270934083c8f6927a6f953b974f27ff1a22776baa82f58b4e21fe1f5b1e",
+          "element_counts": {
+            "step": 4200,
+            "summary": 1
+          },
+          "wall_duration_sha256": "cdd5dd03beea1513b21621dd1fa13032811ea7fbbe6d9c4a9d24675632ccc7c1"
+        },
+        "replay": {
+          "sha256": "a5a1d270934083c8f6927a6f953b974f27ff1a22776baa82f58b4e21fe1f5b1e",
+          "element_counts": {
+            "step": 4200,
+            "summary": 1
+          },
+          "wall_duration_sha256": "01fe91e78ae6022f1187b5df59ee47cfd300f8159d03b20c175b71bfa5f8fbe5"
+        },
+        "wall_duration_differs": true
+      },
+      {
+        "file": "open_s17/tls_states.xml",
+        "archive": {
+          "sha256": "8bfcdb12f75bdc6dc0c368796db5b8d44aa5c2d990cbb68a9c33c4123a7219e1",
+          "element_counts": {
+            "tlsState": 8400,
+            "tlsStates": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "8bfcdb12f75bdc6dc0c368796db5b8d44aa5c2d990cbb68a9c33c4123a7219e1",
+          "element_counts": {
+            "tlsState": 8400,
+            "tlsStates": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/tripinfo.xml",
+        "archive": {
+          "sha256": "191df490d618bcd570c2018e617e55bb83d1912588d5bd437372ae10123f1ef1",
+          "element_counts": {
+            "tripinfo": 4050,
+            "tripinfos": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "191df490d618bcd570c2018e617e55bb83d1912588d5bd437372ae10123f1ef1",
+          "element_counts": {
+            "tripinfo": 4050,
+            "tripinfos": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s17/vehroute.xml",
+        "archive": {
+          "sha256": "62457a4afce2b88e2719307387778d0b00d5894c41371b0b09377c25fa480e12",
+          "element_counts": {
+            "route": 4050,
+            "routes": 1,
+            "vehicle": 4050
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "62457a4afce2b88e2719307387778d0b00d5894c41371b0b09377c25fa480e12",
+          "element_counts": {
+            "route": 4050,
+            "routes": 1,
+            "vehicle": 4050
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/controller_steps.csv",
+        "archive": {
+          "sha256": "71f871e3501129970fe40bdccac9ccf6a8f6a4718583807ad376d94e42738c13",
+          "columns": [
+            "time_begin_s",
+            "time_end_s",
+            "mode",
+            "command_rate_veh_h",
+            "credit_before",
+            "credit_after",
+            "nominal_slot_scheduled",
+            "guard_allowed",
+            "guard_reason",
+            "guard_rejected_slot",
+            "credit_deferred",
+            "guard_vehicle_states_json",
+            "guard_failed_follower_ids_json",
+            "slot_scheduled",
+            "requested_state",
+            "observed_state",
+            "queue_vehicle_count",
+            "queued_unblocked_slot",
+            "front_queued_vehicle_id",
+            "stopline_gap_m",
+            "downstream_rear_clearance_m",
+            "required_clearance_m",
+            "guard_decision_json",
+            "post_green_interlock_json",
+            "internal_before_ids_json",
+            "crossing_bracket_ids_json",
+            "red_crossing_bracket_ids_json",
+            "sampling_uncertain",
+            "dropped_credit_total"
+          ],
+          "rows": 4200
+        },
+        "replay": {
+          "sha256": "71f871e3501129970fe40bdccac9ccf6a8f6a4718583807ad376d94e42738c13",
+          "columns": [
+            "time_begin_s",
+            "time_end_s",
+            "mode",
+            "command_rate_veh_h",
+            "credit_before",
+            "credit_after",
+            "nominal_slot_scheduled",
+            "guard_allowed",
+            "guard_reason",
+            "guard_rejected_slot",
+            "credit_deferred",
+            "guard_vehicle_states_json",
+            "guard_failed_follower_ids_json",
+            "slot_scheduled",
+            "requested_state",
+            "observed_state",
+            "queue_vehicle_count",
+            "queued_unblocked_slot",
+            "front_queued_vehicle_id",
+            "stopline_gap_m",
+            "downstream_rear_clearance_m",
+            "required_clearance_m",
+            "guard_decision_json",
+            "post_green_interlock_json",
+            "internal_before_ids_json",
+            "crossing_bracket_ids_json",
+            "red_crossing_bracket_ids_json",
+            "sampling_uncertain",
+            "dropped_credit_total"
+          ],
+          "rows": 4200
+        }
+      },
+      {
+        "file": "v15_s17/detector_vehicle_events.csv",
+        "archive": {
+          "sha256": "6b8e9a94f991785ed848f3437c6355fa8111524f24bcd3d4d331ead363df1c34",
+          "columns": [
+            "time_begin_s",
+            "time_end_s",
+            "detector_id",
+            "event_count",
+            "vehicle_id",
+            "vehicle_length_m",
+            "entry_time_s",
+            "leave_time_s",
+            "type_id"
+          ],
+          "rows": 7144
+        },
+        "replay": {
+          "sha256": "6b8e9a94f991785ed848f3437c6355fa8111524f24bcd3d4d331ead363df1c34",
+          "columns": [
+            "time_begin_s",
+            "time_end_s",
+            "detector_id",
+            "event_count",
+            "vehicle_id",
+            "vehicle_length_m",
+            "entry_time_s",
+            "leave_time_s",
+            "type_id"
+          ],
+          "rows": 7144
+        }
+      },
+      {
+        "file": "v15_s17/fcd.xml.gz",
+        "archive": {
+          "sha256": "e9f961b75833146a57fd5279b0f41c1b3d1d0c298ad9f9b786942fde7c906f27",
+          "element_counts": {
+            "fcd-export": 1,
+            "timestep": 4200,
+            "vehicle": 515793
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "e9f961b75833146a57fd5279b0f41c1b3d1d0c298ad9f9b786942fde7c906f27",
+          "element_counts": {
+            "fcd-export": 1,
+            "timestep": 4200,
+            "vehicle": 515793
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/feedback_updates.csv",
+        "archive": {
+          "sha256": "54b6204f77df85fbf031de6a07bb3819a083bd70a0d34b9e3ce5c8ccb9accf39",
+          "columns": [
+            "decision_time_s",
+            "application_time_s",
+            "interval_begin_s",
+            "interval_end_s",
+            "detector_l0",
+            "detector_l1",
+            "occupancy_source",
+            "sample_count",
+            "occ_l0_pct",
+            "occ_l1_pct",
+            "occ_mean_pct",
+            "event_contributors_l0",
+            "event_contributors_l1",
+            "legacy_last_interval_l0_pct",
+            "legacy_last_interval_l1_pct",
+            "n_vehicle_l0",
+            "n_vehicle_l1",
+            "valid",
+            "target_pct",
+            "gain_veh_h_per_pct",
+            "rate_previous_veh_h",
+            "rate_raw_veh_h",
+            "rate_clipped_veh_h"
+          ],
+          "rows": 119
+        },
+        "replay": {
+          "sha256": "54b6204f77df85fbf031de6a07bb3819a083bd70a0d34b9e3ce5c8ccb9accf39",
+          "columns": [
+            "decision_time_s",
+            "application_time_s",
+            "interval_begin_s",
+            "interval_end_s",
+            "detector_l0",
+            "detector_l1",
+            "occupancy_source",
+            "sample_count",
+            "occ_l0_pct",
+            "occ_l1_pct",
+            "occ_mean_pct",
+            "event_contributors_l0",
+            "event_contributors_l1",
+            "legacy_last_interval_l0_pct",
+            "legacy_last_interval_l1_pct",
+            "n_vehicle_l0",
+            "n_vehicle_l1",
+            "valid",
+            "target_pct",
+            "gain_veh_h_per_pct",
+            "rate_previous_veh_h",
+            "rate_raw_veh_h",
+            "rate_clipped_veh_h"
+          ],
+          "rows": 119
+        }
+      },
+      {
+        "file": "v15_s17/lanechanges.xml",
+        "archive": {
+          "sha256": "b05026bfb3e356ef5117bdf30db494c3435e7283bf8b7fa132cda0e172d265ff",
+          "element_counts": {
+            "change": 1269,
+            "lanechanges": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "b05026bfb3e356ef5117bdf30db494c3435e7283bf8b7fa132cda0e172d265ff",
+          "element_counts": {
+            "change": 1269,
+            "lanechanges": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/p1_main_down_200_l0.xml",
+        "archive": {
+          "sha256": "b08dd21772ae553b6d10c4a83e990b6054c100318411bbb523fddcd595997885",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "b08dd21772ae553b6d10c4a83e990b6054c100318411bbb523fddcd595997885",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/p1_main_down_200_l1.xml",
+        "archive": {
+          "sha256": "a2ac94e34a9dbe4d018e22747c9e01b27162017c1c868a5879a9c4f882b1ad35",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "a2ac94e34a9dbe4d018e22747c9e01b27162017c1c868a5879a9c4f882b1ad35",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/p1_main_down_20_l0.xml",
+        "archive": {
+          "sha256": "94d55028417039121ee86172fe2dca49d0e13ebd27fd8fe53a4eeb8192efee41",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "94d55028417039121ee86172fe2dca49d0e13ebd27fd8fe53a4eeb8192efee41",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/p1_main_down_20_l1.xml",
+        "archive": {
+          "sha256": "7239dc44c51046be979c02570c29010227e19eb2d41d895f06b7c4f8bb52228f",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "7239dc44c51046be979c02570c29010227e19eb2d41d895f06b7c4f8bb52228f",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/p1_main_up_1300_l0.xml",
+        "archive": {
+          "sha256": "f456a39dd228aa677d59dd66c96a15f8c0dbe76ea0986285f4464724c8ee5f47",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "f456a39dd228aa677d59dd66c96a15f8c0dbe76ea0986285f4464724c8ee5f47",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/p1_main_up_1300_l1.xml",
+        "archive": {
+          "sha256": "d09846c923483f12db463f048d914e357b8224228578063b12c105d52eb4419f",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "d09846c923483f12db463f048d914e357b8224228578063b12c105d52eb4419f",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/p1_merge_section_20_l0.xml",
+        "archive": {
+          "sha256": "eb560fae338f7f8b64eac8031afee7d693ac477de98ef78cb69400e4a3f05a93",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "eb560fae338f7f8b64eac8031afee7d693ac477de98ef78cb69400e4a3f05a93",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/p1_merge_section_20_l1.xml",
+        "archive": {
+          "sha256": "7585778c4a6c9c755392953269aec0bd405f56bda981c73239efc12a6be01875",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "7585778c4a6c9c755392953269aec0bd405f56bda981c73239efc12a6be01875",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/p1_merge_section_20_l2.xml",
+        "archive": {
+          "sha256": "4a34c7c30bdcea7a7d5c0b4109336aa0f5a0a3d19d5db84d4028528f398599aa",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "4a34c7c30bdcea7a7d5c0b4109336aa0f5a0a3d19d5db84d4028528f398599aa",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/queues.xml",
+        "archive": {
+          "sha256": "5b54524ac7dbc741ab4bfee1a1d5f898f31059dd0bb675dc5b1d2f4459ff21d6",
+          "element_counts": {
+            "data": 4200,
+            "lane": 13461,
+            "lanes": 4200,
+            "queue-export": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "5b54524ac7dbc741ab4bfee1a1d5f898f31059dd0bb675dc5b1d2f4459ff21d6",
+          "element_counts": {
+            "data": 4200,
+            "lane": 13461,
+            "lanes": 4200,
+            "queue-export": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/ramp_storage_e2.xml",
+        "archive": {
+          "sha256": "4ddd44e3f783c9c978f502ee75d18df88d883ec9d00101896d57ffe5a10a98a7",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "4ddd44e3f783c9c978f502ee75d18df88d883ec9d00101896d57ffe5a10a98a7",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/service_windows.csv",
+        "archive": {
+          "sha256": "4cc20f94c5fdc6f6ed24dde0fb8bfc0d3464222234660c8a5b2c216b1e6ce89c",
+          "columns": [
+            "window_begin_s",
+            "window_end_s",
+            "nominal_slots",
+            "guard_rejected_slots",
+            "scheduled_slots",
+            "queued_unblocked_slots",
+            "crossings_in_slots",
+            "empty_slots",
+            "red_crossings",
+            "repeated_slots",
+            "wrong_vehicle_slots",
+            "classification"
+          ],
+          "rows": 31
+        },
+        "replay": {
+          "sha256": "4cc20f94c5fdc6f6ed24dde0fb8bfc0d3464222234660c8a5b2c216b1e6ce89c",
+          "columns": [
+            "window_begin_s",
+            "window_end_s",
+            "nominal_slots",
+            "guard_rejected_slots",
+            "scheduled_slots",
+            "queued_unblocked_slots",
+            "crossings_in_slots",
+            "empty_slots",
+            "red_crossings",
+            "repeated_slots",
+            "wrong_vehicle_slots",
+            "classification"
+          ],
+          "rows": 31
+        }
+      },
+      {
+        "file": "v15_s17/shared_boundary_e2.xml",
+        "archive": {
+          "sha256": "9057931eb9ac3927d5c90772a226f7da13cdc85e149a01517ff2d9b62c947e0e",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "9057931eb9ac3927d5c90772a226f7da13cdc85e149a01517ff2d9b62c947e0e",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/sumo_summary.xml",
+        "archive": {
+          "sha256": "640d73f359cf827eb22ffff2bca503f57dfc58413dcff02c61232d5142240008",
+          "element_counts": {
+            "step": 4200,
+            "summary": 1
+          },
+          "wall_duration_sha256": "997511d5ac6cc2c71463051e21da250b47296fb8af78b1b126982eddf30a8079"
+        },
+        "replay": {
+          "sha256": "640d73f359cf827eb22ffff2bca503f57dfc58413dcff02c61232d5142240008",
+          "element_counts": {
+            "step": 4200,
+            "summary": 1
+          },
+          "wall_duration_sha256": "04e86d26a0a1f1ec5fefb1dfff6a95be5c23395f30c0d6c51ca06c5a93b0f5ae"
+        },
+        "wall_duration_differs": true
+      },
+      {
+        "file": "v15_s17/tls_states.xml",
+        "archive": {
+          "sha256": "8c735dffc1840e181f52364c3ddad4d9df3b3992c354099bbfc69db3bc0ddee1",
+          "element_counts": {
+            "tlsState": 8400,
+            "tlsStates": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "8c735dffc1840e181f52364c3ddad4d9df3b3992c354099bbfc69db3bc0ddee1",
+          "element_counts": {
+            "tlsState": 8400,
+            "tlsStates": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/tripinfo.xml",
+        "archive": {
+          "sha256": "53b4b9faa5cf89f3817a8c0791e9445466485cfc29a368e5c25affa3773133d9",
+          "element_counts": {
+            "tripinfo": 4050,
+            "tripinfos": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "53b4b9faa5cf89f3817a8c0791e9445466485cfc29a368e5c25affa3773133d9",
+          "element_counts": {
+            "tripinfo": 4050,
+            "tripinfos": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s17/vehicle_metadata.csv",
+        "archive": {
+          "sha256": "83d0faadff1eeb7ac53b758d09d9557bfc0b97b5134d4ed9e14b4de0a50f044f",
+          "columns": [
+            "vehicle_id",
+            "class",
+            "first_departed_step_end_s",
+            "type_id",
+            "vehicle_length_m",
+            "min_gap_m"
+          ],
+          "rows": 4050
+        },
+        "replay": {
+          "sha256": "83d0faadff1eeb7ac53b758d09d9557bfc0b97b5134d4ed9e14b4de0a50f044f",
+          "columns": [
+            "vehicle_id",
+            "class",
+            "first_departed_step_end_s",
+            "type_id",
+            "vehicle_length_m",
+            "min_gap_m"
+          ],
+          "rows": 4050
+        }
+      },
+      {
+        "file": "v15_s17/vehroute.xml",
+        "archive": {
+          "sha256": "9033bb722236238d7ad21be59c13e35962662d21f610d0016d0d78195dcbef6f",
+          "element_counts": {
+            "route": 4050,
+            "routes": 1,
+            "vehicle": 4050
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "9033bb722236238d7ad21be59c13e35962662d21f610d0016d0d78195dcbef6f",
+          "element_counts": {
+            "route": 4050,
+            "routes": 1,
+            "vehicle": 4050
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/fcd.xml.gz",
+        "archive": {
+          "sha256": "db531e0241ee30b332792fa3a5e6a903379ea7d1199d2f5b898cb1a2531efb6e",
+          "element_counts": {
+            "fcd-export": 1,
+            "timestep": 4200,
+            "vehicle": 417743
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "db531e0241ee30b332792fa3a5e6a903379ea7d1199d2f5b898cb1a2531efb6e",
+          "element_counts": {
+            "fcd-export": 1,
+            "timestep": 4200,
+            "vehicle": 417743
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/lanechanges.xml",
+        "archive": {
+          "sha256": "7af391f72c5481447b854d4e83c1739250b77d5d1a3bec06723ed1610609384f",
+          "element_counts": {
+            "change": 1301,
+            "lanechanges": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "7af391f72c5481447b854d4e83c1739250b77d5d1a3bec06723ed1610609384f",
+          "element_counts": {
+            "change": 1301,
+            "lanechanges": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/p1_main_down_200_l0.xml",
+        "archive": {
+          "sha256": "6fc1d1f40f81256863c66fa921f6188b0625eb59c1818a17252491f049a73698",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "6fc1d1f40f81256863c66fa921f6188b0625eb59c1818a17252491f049a73698",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/p1_main_down_200_l1.xml",
+        "archive": {
+          "sha256": "d9a956873f015b2ce68fbc8d447f8ca2bcee24dcb7569ccc9299fa04db5bcbe7",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "d9a956873f015b2ce68fbc8d447f8ca2bcee24dcb7569ccc9299fa04db5bcbe7",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/p1_main_down_20_l0.xml",
+        "archive": {
+          "sha256": "16fe37df8196747aeb9ab4f090c62fa53af943b7622ce7720d72df8f28fcc1f6",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "16fe37df8196747aeb9ab4f090c62fa53af943b7622ce7720d72df8f28fcc1f6",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/p1_main_down_20_l1.xml",
+        "archive": {
+          "sha256": "014a0f8a617acfd67a3892c9e996a8a21401fcb6b23ea8f7ec73fe7cc34e31b8",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "014a0f8a617acfd67a3892c9e996a8a21401fcb6b23ea8f7ec73fe7cc34e31b8",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/p1_main_up_1300_l0.xml",
+        "archive": {
+          "sha256": "33c88fd709d8162191d3db7b5d949b1862516092cca39bcaf38ca2b44a27c322",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "33c88fd709d8162191d3db7b5d949b1862516092cca39bcaf38ca2b44a27c322",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/p1_main_up_1300_l1.xml",
+        "archive": {
+          "sha256": "68de2a10233cd0746b34fef56be538f7d044228f3b38e094c64ce886d82e135f",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "68de2a10233cd0746b34fef56be538f7d044228f3b38e094c64ce886d82e135f",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/p1_merge_section_20_l0.xml",
+        "archive": {
+          "sha256": "2990987a60de1bed8fbc2e7d703cb6f6a43f3fdaa456285e0c7809481f14de57",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "2990987a60de1bed8fbc2e7d703cb6f6a43f3fdaa456285e0c7809481f14de57",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/p1_merge_section_20_l1.xml",
+        "archive": {
+          "sha256": "e7917a54a5e809e01b15c744e527245794166e14140865041b0ed88fa4aa2ab1",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "e7917a54a5e809e01b15c744e527245794166e14140865041b0ed88fa4aa2ab1",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/p1_merge_section_20_l2.xml",
+        "archive": {
+          "sha256": "b10e849852539e1cb52b840ed2af1254963b17cf690e420fad27dc46ff019d97",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "b10e849852539e1cb52b840ed2af1254963b17cf690e420fad27dc46ff019d97",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/queues.xml",
+        "archive": {
+          "sha256": "355146008af2b67cab4b5bb8910a0be790c0a9d7cf955178ad663c988aee84ce",
+          "element_counts": {
+            "data": 4200,
+            "lane": 5417,
+            "lanes": 4200,
+            "queue-export": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "355146008af2b67cab4b5bb8910a0be790c0a9d7cf955178ad663c988aee84ce",
+          "element_counts": {
+            "data": 4200,
+            "lane": 5417,
+            "lanes": 4200,
+            "queue-export": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/ramp_storage_e2.xml",
+        "archive": {
+          "sha256": "7b8bdd909de30495a73760933e78e61f4433c1e9ee63ee182d438c4b836e0027",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "7b8bdd909de30495a73760933e78e61f4433c1e9ee63ee182d438c4b836e0027",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/shared_boundary_e2.xml",
+        "archive": {
+          "sha256": "7fa868028a23445e91c180b9639dfdf26b9119158d502fad6002e6463874ff8e",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "7fa868028a23445e91c180b9639dfdf26b9119158d502fad6002e6463874ff8e",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/sumo_summary.xml",
+        "archive": {
+          "sha256": "9ecd75daf8c6943fabffac4be37739118052afd24a05fba13699cf2dd7ea9571",
+          "element_counts": {
+            "step": 4200,
+            "summary": 1
+          },
+          "wall_duration_sha256": "3ede0b8f3bd58acb975afc33f01ae6818fa293f096d0bf5e1013de625d408356"
+        },
+        "replay": {
+          "sha256": "9ecd75daf8c6943fabffac4be37739118052afd24a05fba13699cf2dd7ea9571",
+          "element_counts": {
+            "step": 4200,
+            "summary": 1
+          },
+          "wall_duration_sha256": "e57ce1c078a27219e46dbdd6034f055ce4b8c39054b1d4156977c0030fe865bb"
+        },
+        "wall_duration_differs": true
+      },
+      {
+        "file": "open_s23/tls_states.xml",
+        "archive": {
+          "sha256": "8bfcdb12f75bdc6dc0c368796db5b8d44aa5c2d990cbb68a9c33c4123a7219e1",
+          "element_counts": {
+            "tlsState": 8400,
+            "tlsStates": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "8bfcdb12f75bdc6dc0c368796db5b8d44aa5c2d990cbb68a9c33c4123a7219e1",
+          "element_counts": {
+            "tlsState": 8400,
+            "tlsStates": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/tripinfo.xml",
+        "archive": {
+          "sha256": "365e0f7e0b8236c266c1b6461f32e33b0f43f8ad9e3bb630e83f30cfe6f9bcb5",
+          "element_counts": {
+            "tripinfo": 4050,
+            "tripinfos": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "365e0f7e0b8236c266c1b6461f32e33b0f43f8ad9e3bb630e83f30cfe6f9bcb5",
+          "element_counts": {
+            "tripinfo": 4050,
+            "tripinfos": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s23/vehroute.xml",
+        "archive": {
+          "sha256": "77d5fad218b233e0aaab92a62f718d5b9903ccad319f13502d89e142c48e5821",
+          "element_counts": {
+            "route": 4050,
+            "routes": 1,
+            "vehicle": 4050
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "77d5fad218b233e0aaab92a62f718d5b9903ccad319f13502d89e142c48e5821",
+          "element_counts": {
+            "route": 4050,
+            "routes": 1,
+            "vehicle": 4050
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/controller_steps.csv",
+        "archive": {
+          "sha256": "38ba7ecb69a5773e0c4e26471348b136893f8514ef57ca4258f0bf8a7a205ef3",
+          "columns": [
+            "time_begin_s",
+            "time_end_s",
+            "mode",
+            "command_rate_veh_h",
+            "credit_before",
+            "credit_after",
+            "nominal_slot_scheduled",
+            "guard_allowed",
+            "guard_reason",
+            "guard_rejected_slot",
+            "credit_deferred",
+            "guard_vehicle_states_json",
+            "guard_failed_follower_ids_json",
+            "slot_scheduled",
+            "requested_state",
+            "observed_state",
+            "queue_vehicle_count",
+            "queued_unblocked_slot",
+            "front_queued_vehicle_id",
+            "stopline_gap_m",
+            "downstream_rear_clearance_m",
+            "required_clearance_m",
+            "guard_decision_json",
+            "post_green_interlock_json",
+            "internal_before_ids_json",
+            "crossing_bracket_ids_json",
+            "red_crossing_bracket_ids_json",
+            "sampling_uncertain",
+            "dropped_credit_total"
+          ],
+          "rows": 4200
+        },
+        "replay": {
+          "sha256": "38ba7ecb69a5773e0c4e26471348b136893f8514ef57ca4258f0bf8a7a205ef3",
+          "columns": [
+            "time_begin_s",
+            "time_end_s",
+            "mode",
+            "command_rate_veh_h",
+            "credit_before",
+            "credit_after",
+            "nominal_slot_scheduled",
+            "guard_allowed",
+            "guard_reason",
+            "guard_rejected_slot",
+            "credit_deferred",
+            "guard_vehicle_states_json",
+            "guard_failed_follower_ids_json",
+            "slot_scheduled",
+            "requested_state",
+            "observed_state",
+            "queue_vehicle_count",
+            "queued_unblocked_slot",
+            "front_queued_vehicle_id",
+            "stopline_gap_m",
+            "downstream_rear_clearance_m",
+            "required_clearance_m",
+            "guard_decision_json",
+            "post_green_interlock_json",
+            "internal_before_ids_json",
+            "crossing_bracket_ids_json",
+            "red_crossing_bracket_ids_json",
+            "sampling_uncertain",
+            "dropped_credit_total"
+          ],
+          "rows": 4200
+        }
+      },
+      {
+        "file": "v15_s23/detector_vehicle_events.csv",
+        "archive": {
+          "sha256": "d334ed851c3b5a1b353b910de725690d0332b9f2dbc659973cea3ab02110be4f",
+          "columns": [
+            "time_begin_s",
+            "time_end_s",
+            "detector_id",
+            "event_count",
+            "vehicle_id",
+            "vehicle_length_m",
+            "entry_time_s",
+            "leave_time_s",
+            "type_id"
+          ],
+          "rows": 7148
+        },
+        "replay": {
+          "sha256": "d334ed851c3b5a1b353b910de725690d0332b9f2dbc659973cea3ab02110be4f",
+          "columns": [
+            "time_begin_s",
+            "time_end_s",
+            "detector_id",
+            "event_count",
+            "vehicle_id",
+            "vehicle_length_m",
+            "entry_time_s",
+            "leave_time_s",
+            "type_id"
+          ],
+          "rows": 7148
+        }
+      },
+      {
+        "file": "v15_s23/fcd.xml.gz",
+        "archive": {
+          "sha256": "a5eb16e43c86b852920f9af653528d9b417dc299dc7dad2f6b22d45f9728d2df",
+          "element_counts": {
+            "fcd-export": 1,
+            "timestep": 4200,
+            "vehicle": 524843
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "a5eb16e43c86b852920f9af653528d9b417dc299dc7dad2f6b22d45f9728d2df",
+          "element_counts": {
+            "fcd-export": 1,
+            "timestep": 4200,
+            "vehicle": 524843
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/feedback_updates.csv",
+        "archive": {
+          "sha256": "2621c119b05a40cca7e744c4d83d32d2c6634b20d95fefb6926de303a9b667bc",
+          "columns": [
+            "decision_time_s",
+            "application_time_s",
+            "interval_begin_s",
+            "interval_end_s",
+            "detector_l0",
+            "detector_l1",
+            "occupancy_source",
+            "sample_count",
+            "occ_l0_pct",
+            "occ_l1_pct",
+            "occ_mean_pct",
+            "event_contributors_l0",
+            "event_contributors_l1",
+            "legacy_last_interval_l0_pct",
+            "legacy_last_interval_l1_pct",
+            "n_vehicle_l0",
+            "n_vehicle_l1",
+            "valid",
+            "target_pct",
+            "gain_veh_h_per_pct",
+            "rate_previous_veh_h",
+            "rate_raw_veh_h",
+            "rate_clipped_veh_h"
+          ],
+          "rows": 119
+        },
+        "replay": {
+          "sha256": "2621c119b05a40cca7e744c4d83d32d2c6634b20d95fefb6926de303a9b667bc",
+          "columns": [
+            "decision_time_s",
+            "application_time_s",
+            "interval_begin_s",
+            "interval_end_s",
+            "detector_l0",
+            "detector_l1",
+            "occupancy_source",
+            "sample_count",
+            "occ_l0_pct",
+            "occ_l1_pct",
+            "occ_mean_pct",
+            "event_contributors_l0",
+            "event_contributors_l1",
+            "legacy_last_interval_l0_pct",
+            "legacy_last_interval_l1_pct",
+            "n_vehicle_l0",
+            "n_vehicle_l1",
+            "valid",
+            "target_pct",
+            "gain_veh_h_per_pct",
+            "rate_previous_veh_h",
+            "rate_raw_veh_h",
+            "rate_clipped_veh_h"
+          ],
+          "rows": 119
+        }
+      },
+      {
+        "file": "v15_s23/lanechanges.xml",
+        "archive": {
+          "sha256": "411c36834ca5e77cf47d7d09a158b01adef03af9e86141df31735eff7e94e84a",
+          "element_counts": {
+            "change": 1277,
+            "lanechanges": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "411c36834ca5e77cf47d7d09a158b01adef03af9e86141df31735eff7e94e84a",
+          "element_counts": {
+            "change": 1277,
+            "lanechanges": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/p1_main_down_200_l0.xml",
+        "archive": {
+          "sha256": "3d40bb4f7412bfbe7345f30a2ffdacab97da9bd32f863b37cca11cf4ec05b42a",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "3d40bb4f7412bfbe7345f30a2ffdacab97da9bd32f863b37cca11cf4ec05b42a",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/p1_main_down_200_l1.xml",
+        "archive": {
+          "sha256": "ee622c8c1335ff96a98aee06e447ac46cd093248f1e308205e298b68276c6ce9",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "ee622c8c1335ff96a98aee06e447ac46cd093248f1e308205e298b68276c6ce9",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/p1_main_down_20_l0.xml",
+        "archive": {
+          "sha256": "854e30ba20331328ea36b5065f98853611be3401963c604642b1adc293c8c689",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "854e30ba20331328ea36b5065f98853611be3401963c604642b1adc293c8c689",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/p1_main_down_20_l1.xml",
+        "archive": {
+          "sha256": "c77f5e13403b39eb87d0c6ccc337a001486f0978130f7f1e83ecce7c92a2eb91",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "c77f5e13403b39eb87d0c6ccc337a001486f0978130f7f1e83ecce7c92a2eb91",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/p1_main_up_1300_l0.xml",
+        "archive": {
+          "sha256": "7e56f20cc6b0a264adfca8fdf2538b16fe270db71951a5737473d4c298cd189d",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "7e56f20cc6b0a264adfca8fdf2538b16fe270db71951a5737473d4c298cd189d",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/p1_main_up_1300_l1.xml",
+        "archive": {
+          "sha256": "e5b580a4501f72074012b07c1d70c434a4faeca0be485ca8d6c2c2b460ec1795",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "e5b580a4501f72074012b07c1d70c434a4faeca0be485ca8d6c2c2b460ec1795",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/p1_merge_section_20_l0.xml",
+        "archive": {
+          "sha256": "a7899eaf72efc5416ddb3b20a0769783b1d4b50932488c22b9d497d4a6f28389",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "a7899eaf72efc5416ddb3b20a0769783b1d4b50932488c22b9d497d4a6f28389",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/p1_merge_section_20_l1.xml",
+        "archive": {
+          "sha256": "7dea43cc54a3536fdab312d9461f2091882e610ec397fc01e6c94021fbb2a146",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "7dea43cc54a3536fdab312d9461f2091882e610ec397fc01e6c94021fbb2a146",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/p1_merge_section_20_l2.xml",
+        "archive": {
+          "sha256": "39f0d670bb44accec56d1bff423099feb0acd8ffafbbfb55744dc03d710f073a",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "39f0d670bb44accec56d1bff423099feb0acd8ffafbbfb55744dc03d710f073a",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/queues.xml",
+        "archive": {
+          "sha256": "25687a0375301e2370b016bdb4b40e4f4e95e95b38862c0d026cd641589341ac",
+          "element_counts": {
+            "data": 4200,
+            "lane": 13876,
+            "lanes": 4200,
+            "queue-export": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "25687a0375301e2370b016bdb4b40e4f4e95e95b38862c0d026cd641589341ac",
+          "element_counts": {
+            "data": 4200,
+            "lane": 13876,
+            "lanes": 4200,
+            "queue-export": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/ramp_storage_e2.xml",
+        "archive": {
+          "sha256": "688f9ec038a18cae2a819172ee9e5fa3b4f425edbb4e2898705d548eeec85fe1",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "688f9ec038a18cae2a819172ee9e5fa3b4f425edbb4e2898705d548eeec85fe1",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/service_windows.csv",
+        "archive": {
+          "sha256": "4edb9a54b9131f18c33f01e12d9a947eeeaf8e1b73183d7839347936a47fa294",
+          "columns": [
+            "window_begin_s",
+            "window_end_s",
+            "nominal_slots",
+            "guard_rejected_slots",
+            "scheduled_slots",
+            "queued_unblocked_slots",
+            "crossings_in_slots",
+            "empty_slots",
+            "red_crossings",
+            "repeated_slots",
+            "wrong_vehicle_slots",
+            "classification"
+          ],
+          "rows": 31
+        },
+        "replay": {
+          "sha256": "4edb9a54b9131f18c33f01e12d9a947eeeaf8e1b73183d7839347936a47fa294",
+          "columns": [
+            "window_begin_s",
+            "window_end_s",
+            "nominal_slots",
+            "guard_rejected_slots",
+            "scheduled_slots",
+            "queued_unblocked_slots",
+            "crossings_in_slots",
+            "empty_slots",
+            "red_crossings",
+            "repeated_slots",
+            "wrong_vehicle_slots",
+            "classification"
+          ],
+          "rows": 31
+        }
+      },
+      {
+        "file": "v15_s23/shared_boundary_e2.xml",
+        "archive": {
+          "sha256": "2357fa72b0b1ea948981995365d6142e0a62c7d29890a0415cc5e623c6c63efe",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "2357fa72b0b1ea948981995365d6142e0a62c7d29890a0415cc5e623c6c63efe",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/sumo_summary.xml",
+        "archive": {
+          "sha256": "51607929aa147719ee60925a8370b6cce22672c13ea1104faf7685b3e43d6e13",
+          "element_counts": {
+            "step": 4200,
+            "summary": 1
+          },
+          "wall_duration_sha256": "369f9f8679178ae701c23fc8a291f8ecff792e63baa80298a85fef5ab9181ffa"
+        },
+        "replay": {
+          "sha256": "51607929aa147719ee60925a8370b6cce22672c13ea1104faf7685b3e43d6e13",
+          "element_counts": {
+            "step": 4200,
+            "summary": 1
+          },
+          "wall_duration_sha256": "59db4f043b6e6f33a7acd8f1f41c0042511c1e39c3df65f282a0c69a321f9ff8"
+        },
+        "wall_duration_differs": true
+      },
+      {
+        "file": "v15_s23/tls_states.xml",
+        "archive": {
+          "sha256": "aa66768d2ee468f5eb33ba643c9e0abdc207adb934ab349ca34b38bf8169d09f",
+          "element_counts": {
+            "tlsState": 8400,
+            "tlsStates": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "aa66768d2ee468f5eb33ba643c9e0abdc207adb934ab349ca34b38bf8169d09f",
+          "element_counts": {
+            "tlsState": 8400,
+            "tlsStates": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/tripinfo.xml",
+        "archive": {
+          "sha256": "f53b1507e32276b2fb6d1f3664b420f7bffee9e1dc3fdb847c2cfa3f479295a0",
+          "element_counts": {
+            "tripinfo": 4050,
+            "tripinfos": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "f53b1507e32276b2fb6d1f3664b420f7bffee9e1dc3fdb847c2cfa3f479295a0",
+          "element_counts": {
+            "tripinfo": 4050,
+            "tripinfos": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s23/vehicle_metadata.csv",
+        "archive": {
+          "sha256": "a6e62f07002e13d97b5f272169857432ee20eea4302051e28764b1e7d1ce1172",
+          "columns": [
+            "vehicle_id",
+            "class",
+            "first_departed_step_end_s",
+            "type_id",
+            "vehicle_length_m",
+            "min_gap_m"
+          ],
+          "rows": 4050
+        },
+        "replay": {
+          "sha256": "a6e62f07002e13d97b5f272169857432ee20eea4302051e28764b1e7d1ce1172",
+          "columns": [
+            "vehicle_id",
+            "class",
+            "first_departed_step_end_s",
+            "type_id",
+            "vehicle_length_m",
+            "min_gap_m"
+          ],
+          "rows": 4050
+        }
+      },
+      {
+        "file": "v15_s23/vehroute.xml",
+        "archive": {
+          "sha256": "e756c453106a4dc27596f1b77bda6950eb5b28b42abad90b19570b542806abc7",
+          "element_counts": {
+            "route": 4050,
+            "routes": 1,
+            "vehicle": 4050
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "e756c453106a4dc27596f1b77bda6950eb5b28b42abad90b19570b542806abc7",
+          "element_counts": {
+            "route": 4050,
+            "routes": 1,
+            "vehicle": 4050
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/fcd.xml.gz",
+        "archive": {
+          "sha256": "1f49c7b60ac001b9e614ece7ed33d9b05e649f3061567fc6f9a7ba547ff34b03",
+          "element_counts": {
+            "fcd-export": 1,
+            "timestep": 4200,
+            "vehicle": 488214
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "1f49c7b60ac001b9e614ece7ed33d9b05e649f3061567fc6f9a7ba547ff34b03",
+          "element_counts": {
+            "fcd-export": 1,
+            "timestep": 4200,
+            "vehicle": 488214
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/lanechanges.xml",
+        "archive": {
+          "sha256": "dbf99d54042a1b3dfd2bd553af585e4f4af8a7b9bd500862dcc0fa1a970e2148",
+          "element_counts": {
+            "change": 1325,
+            "lanechanges": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "dbf99d54042a1b3dfd2bd553af585e4f4af8a7b9bd500862dcc0fa1a970e2148",
+          "element_counts": {
+            "change": 1325,
+            "lanechanges": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/p1_main_down_200_l0.xml",
+        "archive": {
+          "sha256": "678419df36f2520906dc4614e8124d7e20e5ed852e2ad18d994dd956b32677d8",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "678419df36f2520906dc4614e8124d7e20e5ed852e2ad18d994dd956b32677d8",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/p1_main_down_200_l1.xml",
+        "archive": {
+          "sha256": "9e1acf73e87e8d6c7e8a09085db8b88b075011b24edae348d8d177a0cb6bdfa3",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "9e1acf73e87e8d6c7e8a09085db8b88b075011b24edae348d8d177a0cb6bdfa3",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/p1_main_down_20_l0.xml",
+        "archive": {
+          "sha256": "7fad288a77804a50674f346b17056206ec28a699e4bf4f57371c8c18d1695ec0",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "7fad288a77804a50674f346b17056206ec28a699e4bf4f57371c8c18d1695ec0",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/p1_main_down_20_l1.xml",
+        "archive": {
+          "sha256": "8db3e56810165f7f34ed22132bf4c481f9f0ad0d2a404dc26b8de81e9c9935c1",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "8db3e56810165f7f34ed22132bf4c481f9f0ad0d2a404dc26b8de81e9c9935c1",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/p1_main_up_1300_l0.xml",
+        "archive": {
+          "sha256": "b3c9eb7979a1b5d2a5be6b926ec3172f471135c236800e0597706006959945de",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "b3c9eb7979a1b5d2a5be6b926ec3172f471135c236800e0597706006959945de",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/p1_main_up_1300_l1.xml",
+        "archive": {
+          "sha256": "ede6cea8f7d860ee73c541d05d5c25489bfdf6c9335e723d4d0b44d380a30801",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "ede6cea8f7d860ee73c541d05d5c25489bfdf6c9335e723d4d0b44d380a30801",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/p1_merge_section_20_l0.xml",
+        "archive": {
+          "sha256": "00c63d1e5028f6b3d20f3c5cf6dce578ffcc47762f08d94c9004b3dd105533a2",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "00c63d1e5028f6b3d20f3c5cf6dce578ffcc47762f08d94c9004b3dd105533a2",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/p1_merge_section_20_l1.xml",
+        "archive": {
+          "sha256": "555cd50d3b661be4dc698a84526f4dffaf8bdfa75b3c9a043ee20a1641498d3f",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "555cd50d3b661be4dc698a84526f4dffaf8bdfa75b3c9a043ee20a1641498d3f",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/p1_merge_section_20_l2.xml",
+        "archive": {
+          "sha256": "8ba5b3a88b6a1e4ce4e095ad30a84b150baa1d4f5a664477eb7ebd6d07d3e03f",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "8ba5b3a88b6a1e4ce4e095ad30a84b150baa1d4f5a664477eb7ebd6d07d3e03f",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/queues.xml",
+        "archive": {
+          "sha256": "9a6694fc6d40d26a0d0b654adae1486d4c8c459bfee264b0dc7d9b7f129ea75f",
+          "element_counts": {
+            "data": 4200,
+            "lane": 6411,
+            "lanes": 4200,
+            "queue-export": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "9a6694fc6d40d26a0d0b654adae1486d4c8c459bfee264b0dc7d9b7f129ea75f",
+          "element_counts": {
+            "data": 4200,
+            "lane": 6411,
+            "lanes": 4200,
+            "queue-export": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/ramp_storage_e2.xml",
+        "archive": {
+          "sha256": "5eebef0473c8b9a629c367086dccabff5b2146233617d0dad1e4968833c0d659",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "5eebef0473c8b9a629c367086dccabff5b2146233617d0dad1e4968833c0d659",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/shared_boundary_e2.xml",
+        "archive": {
+          "sha256": "ac91a179ccc44bd3842b90c3f6db0a266540c3ed80459ad497f19af7a01bd2b0",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "ac91a179ccc44bd3842b90c3f6db0a266540c3ed80459ad497f19af7a01bd2b0",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/sumo_summary.xml",
+        "archive": {
+          "sha256": "ff1a629ecdc15595f0e898b93f6208932b244b7b5df13e2cd5ddba3deea34e77",
+          "element_counts": {
+            "step": 4200,
+            "summary": 1
+          },
+          "wall_duration_sha256": "425280d066130cb95267479d4534a0919ab4b68dca8de388f9933505de1ef7d3"
+        },
+        "replay": {
+          "sha256": "ff1a629ecdc15595f0e898b93f6208932b244b7b5df13e2cd5ddba3deea34e77",
+          "element_counts": {
+            "step": 4200,
+            "summary": 1
+          },
+          "wall_duration_sha256": "99d9e25d9e41280a8f31d360780bda0503ff36f0f0596267e894a4348022066b"
+        },
+        "wall_duration_differs": true
+      },
+      {
+        "file": "open_s42/tls_states.xml",
+        "archive": {
+          "sha256": "8bfcdb12f75bdc6dc0c368796db5b8d44aa5c2d990cbb68a9c33c4123a7219e1",
+          "element_counts": {
+            "tlsState": 8400,
+            "tlsStates": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "8bfcdb12f75bdc6dc0c368796db5b8d44aa5c2d990cbb68a9c33c4123a7219e1",
+          "element_counts": {
+            "tlsState": 8400,
+            "tlsStates": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/tripinfo.xml",
+        "archive": {
+          "sha256": "c3f0990bb4a6b2a8a86c274f5edd9bd304b0b75e6eba3828dd9df08b58a0b24e",
+          "element_counts": {
+            "tripinfo": 4050,
+            "tripinfos": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "c3f0990bb4a6b2a8a86c274f5edd9bd304b0b75e6eba3828dd9df08b58a0b24e",
+          "element_counts": {
+            "tripinfo": 4050,
+            "tripinfos": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "open_s42/vehroute.xml",
+        "archive": {
+          "sha256": "49daafb2486d870b0b171eb92b75a438a2e89a6696e2d784ced19f1453a9b926",
+          "element_counts": {
+            "route": 4050,
+            "routes": 1,
+            "vehicle": 4050
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "49daafb2486d870b0b171eb92b75a438a2e89a6696e2d784ced19f1453a9b926",
+          "element_counts": {
+            "route": 4050,
+            "routes": 1,
+            "vehicle": 4050
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/controller_steps.csv",
+        "archive": {
+          "sha256": "e8592bef33989c3c1f0cc21c8aa200200c3ebf7eb36db4fca1ea650b4472056b",
+          "columns": [
+            "time_begin_s",
+            "time_end_s",
+            "mode",
+            "command_rate_veh_h",
+            "credit_before",
+            "credit_after",
+            "nominal_slot_scheduled",
+            "guard_allowed",
+            "guard_reason",
+            "guard_rejected_slot",
+            "credit_deferred",
+            "guard_vehicle_states_json",
+            "guard_failed_follower_ids_json",
+            "slot_scheduled",
+            "requested_state",
+            "observed_state",
+            "queue_vehicle_count",
+            "queued_unblocked_slot",
+            "front_queued_vehicle_id",
+            "stopline_gap_m",
+            "downstream_rear_clearance_m",
+            "required_clearance_m",
+            "guard_decision_json",
+            "post_green_interlock_json",
+            "internal_before_ids_json",
+            "crossing_bracket_ids_json",
+            "red_crossing_bracket_ids_json",
+            "sampling_uncertain",
+            "dropped_credit_total"
+          ],
+          "rows": 4200
+        },
+        "replay": {
+          "sha256": "e8592bef33989c3c1f0cc21c8aa200200c3ebf7eb36db4fca1ea650b4472056b",
+          "columns": [
+            "time_begin_s",
+            "time_end_s",
+            "mode",
+            "command_rate_veh_h",
+            "credit_before",
+            "credit_after",
+            "nominal_slot_scheduled",
+            "guard_allowed",
+            "guard_reason",
+            "guard_rejected_slot",
+            "credit_deferred",
+            "guard_vehicle_states_json",
+            "guard_failed_follower_ids_json",
+            "slot_scheduled",
+            "requested_state",
+            "observed_state",
+            "queue_vehicle_count",
+            "queued_unblocked_slot",
+            "front_queued_vehicle_id",
+            "stopline_gap_m",
+            "downstream_rear_clearance_m",
+            "required_clearance_m",
+            "guard_decision_json",
+            "post_green_interlock_json",
+            "internal_before_ids_json",
+            "crossing_bracket_ids_json",
+            "red_crossing_bracket_ids_json",
+            "sampling_uncertain",
+            "dropped_credit_total"
+          ],
+          "rows": 4200
+        }
+      },
+      {
+        "file": "v15_s42/detector_vehicle_events.csv",
+        "archive": {
+          "sha256": "ebe0f7a25f3a1a083e2992752302ac1065dcc22074a32acd041fceb98d4bab70",
+          "columns": [
+            "time_begin_s",
+            "time_end_s",
+            "detector_id",
+            "event_count",
+            "vehicle_id",
+            "vehicle_length_m",
+            "entry_time_s",
+            "leave_time_s",
+            "type_id"
+          ],
+          "rows": 7141
+        },
+        "replay": {
+          "sha256": "ebe0f7a25f3a1a083e2992752302ac1065dcc22074a32acd041fceb98d4bab70",
+          "columns": [
+            "time_begin_s",
+            "time_end_s",
+            "detector_id",
+            "event_count",
+            "vehicle_id",
+            "vehicle_length_m",
+            "entry_time_s",
+            "leave_time_s",
+            "type_id"
+          ],
+          "rows": 7141
+        }
+      },
+      {
+        "file": "v15_s42/fcd.xml.gz",
+        "archive": {
+          "sha256": "c0fa7fff0a7e8210b291d03fd28c7766c481f8d9862589077b0fb167c4e7ed39",
+          "element_counts": {
+            "fcd-export": 1,
+            "timestep": 4200,
+            "vehicle": 528419
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "c0fa7fff0a7e8210b291d03fd28c7766c481f8d9862589077b0fb167c4e7ed39",
+          "element_counts": {
+            "fcd-export": 1,
+            "timestep": 4200,
+            "vehicle": 528419
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/feedback_updates.csv",
+        "archive": {
+          "sha256": "de5cd3db044cd75c77ad1202b4ab2e2dfe9bf2deaee67685eee288b3c70ec61f",
+          "columns": [
+            "decision_time_s",
+            "application_time_s",
+            "interval_begin_s",
+            "interval_end_s",
+            "detector_l0",
+            "detector_l1",
+            "occupancy_source",
+            "sample_count",
+            "occ_l0_pct",
+            "occ_l1_pct",
+            "occ_mean_pct",
+            "event_contributors_l0",
+            "event_contributors_l1",
+            "legacy_last_interval_l0_pct",
+            "legacy_last_interval_l1_pct",
+            "n_vehicle_l0",
+            "n_vehicle_l1",
+            "valid",
+            "target_pct",
+            "gain_veh_h_per_pct",
+            "rate_previous_veh_h",
+            "rate_raw_veh_h",
+            "rate_clipped_veh_h"
+          ],
+          "rows": 119
+        },
+        "replay": {
+          "sha256": "de5cd3db044cd75c77ad1202b4ab2e2dfe9bf2deaee67685eee288b3c70ec61f",
+          "columns": [
+            "decision_time_s",
+            "application_time_s",
+            "interval_begin_s",
+            "interval_end_s",
+            "detector_l0",
+            "detector_l1",
+            "occupancy_source",
+            "sample_count",
+            "occ_l0_pct",
+            "occ_l1_pct",
+            "occ_mean_pct",
+            "event_contributors_l0",
+            "event_contributors_l1",
+            "legacy_last_interval_l0_pct",
+            "legacy_last_interval_l1_pct",
+            "n_vehicle_l0",
+            "n_vehicle_l1",
+            "valid",
+            "target_pct",
+            "gain_veh_h_per_pct",
+            "rate_previous_veh_h",
+            "rate_raw_veh_h",
+            "rate_clipped_veh_h"
+          ],
+          "rows": 119
+        }
+      },
+      {
+        "file": "v15_s42/lanechanges.xml",
+        "archive": {
+          "sha256": "6ed3428cc4cea8077549b23e749314e0eab9c91ab81329615faaa8707241cbae",
+          "element_counts": {
+            "change": 1260,
+            "lanechanges": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "6ed3428cc4cea8077549b23e749314e0eab9c91ab81329615faaa8707241cbae",
+          "element_counts": {
+            "change": 1260,
+            "lanechanges": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/p1_main_down_200_l0.xml",
+        "archive": {
+          "sha256": "363af2b181e9fea9cc9276e8bb7526775b46255dd8561d38660fa09053f54588",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "363af2b181e9fea9cc9276e8bb7526775b46255dd8561d38660fa09053f54588",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/p1_main_down_200_l1.xml",
+        "archive": {
+          "sha256": "8d9a3a632b53605ff65e3c0e13661dd51c9207d7c3f2f7e0be84434fda71809a",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "8d9a3a632b53605ff65e3c0e13661dd51c9207d7c3f2f7e0be84434fda71809a",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/p1_main_down_20_l0.xml",
+        "archive": {
+          "sha256": "b682a393c993fc8e863e1e7a0bc14ee311b52d427933eb4d1ca44cdcfda4c878",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "b682a393c993fc8e863e1e7a0bc14ee311b52d427933eb4d1ca44cdcfda4c878",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/p1_main_down_20_l1.xml",
+        "archive": {
+          "sha256": "9261bf6be6fa2f6c4f130a3880d7734fc923e11f1ddbdb362aa0bc5549d8b9b3",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "9261bf6be6fa2f6c4f130a3880d7734fc923e11f1ddbdb362aa0bc5549d8b9b3",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/p1_main_up_1300_l0.xml",
+        "archive": {
+          "sha256": "390a43663b14e441f0eaac5bec909422de3dff733a096cdaf89f076291243184",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "390a43663b14e441f0eaac5bec909422de3dff733a096cdaf89f076291243184",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/p1_main_up_1300_l1.xml",
+        "archive": {
+          "sha256": "cd61d1953e135274f148a9910d736fa2921cd6b2c92654e34231f121f57f2f88",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "cd61d1953e135274f148a9910d736fa2921cd6b2c92654e34231f121f57f2f88",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/p1_merge_section_20_l0.xml",
+        "archive": {
+          "sha256": "f33b077d4b65a99f11771864436049b01336e3223bce44f25791ef98a84da9b2",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "f33b077d4b65a99f11771864436049b01336e3223bce44f25791ef98a84da9b2",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/p1_merge_section_20_l1.xml",
+        "archive": {
+          "sha256": "37014bc34ebe8fa1cf541fdd189dc722760673ffcffc1215327b949db8780b7d",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "37014bc34ebe8fa1cf541fdd189dc722760673ffcffc1215327b949db8780b7d",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/p1_merge_section_20_l2.xml",
+        "archive": {
+          "sha256": "16ad28c826802f9d992e8c77b2c1e8f7ef74ebd014aea99cef850bcd921a0c9d",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "16ad28c826802f9d992e8c77b2c1e8f7ef74ebd014aea99cef850bcd921a0c9d",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/queues.xml",
+        "archive": {
+          "sha256": "555f8c31844d32df8440db76d9590aab7dc915edb00918854cc68234d5085ba9",
+          "element_counts": {
+            "data": 4200,
+            "lane": 14271,
+            "lanes": 4200,
+            "queue-export": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "555f8c31844d32df8440db76d9590aab7dc915edb00918854cc68234d5085ba9",
+          "element_counts": {
+            "data": 4200,
+            "lane": 14271,
+            "lanes": 4200,
+            "queue-export": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/ramp_storage_e2.xml",
+        "archive": {
+          "sha256": "c5616d9f30bda46d770e7a5d7db6584ad74ed497f1dbc61f377332e070ed0239",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "c5616d9f30bda46d770e7a5d7db6584ad74ed497f1dbc61f377332e070ed0239",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/service_windows.csv",
+        "archive": {
+          "sha256": "bd58e7a884b33e5d5041eaa14a3cce4f78291aa09f934a46179ca2b0ae002f16",
+          "columns": [
+            "window_begin_s",
+            "window_end_s",
+            "nominal_slots",
+            "guard_rejected_slots",
+            "scheduled_slots",
+            "queued_unblocked_slots",
+            "crossings_in_slots",
+            "empty_slots",
+            "red_crossings",
+            "repeated_slots",
+            "wrong_vehicle_slots",
+            "classification"
+          ],
+          "rows": 31
+        },
+        "replay": {
+          "sha256": "bd58e7a884b33e5d5041eaa14a3cce4f78291aa09f934a46179ca2b0ae002f16",
+          "columns": [
+            "window_begin_s",
+            "window_end_s",
+            "nominal_slots",
+            "guard_rejected_slots",
+            "scheduled_slots",
+            "queued_unblocked_slots",
+            "crossings_in_slots",
+            "empty_slots",
+            "red_crossings",
+            "repeated_slots",
+            "wrong_vehicle_slots",
+            "classification"
+          ],
+          "rows": 31
+        }
+      },
+      {
+        "file": "v15_s42/shared_boundary_e2.xml",
+        "archive": {
+          "sha256": "319788e9a6127adfb66a7929aa6f033b1c188d355a512cd808fde6e942f12d1c",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "319788e9a6127adfb66a7929aa6f033b1c188d355a512cd808fde6e942f12d1c",
+          "element_counts": {
+            "detector": 1,
+            "interval": 140
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/sumo_summary.xml",
+        "archive": {
+          "sha256": "c75ac7e3f2ee1bd210ccceb010caf4dc5340a99231292971579e0fbff580b3b6",
+          "element_counts": {
+            "step": 4200,
+            "summary": 1
+          },
+          "wall_duration_sha256": "93ec495d0bd75598ee58d6f20e70f254b43b2d435202d94da08643f82ea21e06"
+        },
+        "replay": {
+          "sha256": "c75ac7e3f2ee1bd210ccceb010caf4dc5340a99231292971579e0fbff580b3b6",
+          "element_counts": {
+            "step": 4200,
+            "summary": 1
+          },
+          "wall_duration_sha256": "9c7b5fe8dfb510f7b5db68d66ed28f625b9615393a93608fcf7bb8ee1a2234d4"
+        },
+        "wall_duration_differs": true
+      },
+      {
+        "file": "v15_s42/tls_states.xml",
+        "archive": {
+          "sha256": "22c63dd469ff45cb9316ea518e49ce1b7275ade9e0d24b9682f3c9c202f8d666",
+          "element_counts": {
+            "tlsState": 8400,
+            "tlsStates": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "22c63dd469ff45cb9316ea518e49ce1b7275ade9e0d24b9682f3c9c202f8d666",
+          "element_counts": {
+            "tlsState": 8400,
+            "tlsStates": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/tripinfo.xml",
+        "archive": {
+          "sha256": "d3321babd5d79429f6e30394ad3cb6d7d59c3b92c046d5940e1a63fd34e89610",
+          "element_counts": {
+            "tripinfo": 4050,
+            "tripinfos": 1
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "d3321babd5d79429f6e30394ad3cb6d7d59c3b92c046d5940e1a63fd34e89610",
+          "element_counts": {
+            "tripinfo": 4050,
+            "tripinfos": 1
+          },
+          "wall_duration_sha256": null
+        }
+      },
+      {
+        "file": "v15_s42/vehicle_metadata.csv",
+        "archive": {
+          "sha256": "667ba3a718b097407724b03a76ca891b814e8a4a17262df4b9cffded41ec8d59",
+          "columns": [
+            "vehicle_id",
+            "class",
+            "first_departed_step_end_s",
+            "type_id",
+            "vehicle_length_m",
+            "min_gap_m"
+          ],
+          "rows": 4050
+        },
+        "replay": {
+          "sha256": "667ba3a718b097407724b03a76ca891b814e8a4a17262df4b9cffded41ec8d59",
+          "columns": [
+            "vehicle_id",
+            "class",
+            "first_departed_step_end_s",
+            "type_id",
+            "vehicle_length_m",
+            "min_gap_m"
+          ],
+          "rows": 4050
+        }
+      },
+      {
+        "file": "v15_s42/vehroute.xml",
+        "archive": {
+          "sha256": "646a843ee14b09a816d357b8c9b44cb2c5c2344886dbdd2b439e2a4cf6f394a3",
+          "element_counts": {
+            "route": 4050,
+            "routes": 1,
+            "vehicle": 4050
+          },
+          "wall_duration_sha256": null
+        },
+        "replay": {
+          "sha256": "646a843ee14b09a816d357b8c9b44cb2c5c2344886dbdd2b439e2a4cf6f394a3",
+          "element_counts": {
+            "route": 4050,
+            "routes": 1,
+            "vehicle": 4050
+          },
+          "wall_duration_sha256": null
+        }
+      }
+    ],
+    "cohorts": {
+      "open_s17": {
+        "M": {
+          "requested": 3000,
+          "system_seconds": "467230.000",
+          "source_wait_seconds": "19762.000"
+        },
+        "R": {
+          "requested": 600,
+          "system_seconds": "58984.000",
+          "source_wait_seconds": "0.000"
+        },
+        "U": {
+          "requested": 300,
+          "system_seconds": "19888.000",
+          "source_wait_seconds": "0.000"
+        },
+        "X": {
+          "requested": 150,
+          "system_seconds": "10289.000",
+          "source_wait_seconds": "0.000"
+        }
+      },
+      "v15_s17": {
+        "M": {
+          "requested": 3000,
+          "system_seconds": "230515.000",
+          "source_wait_seconds": "0.000"
+        },
+        "R": {
+          "requested": 600,
+          "system_seconds": "365441.000",
+          "source_wait_seconds": "143668.000"
+        },
+        "U": {
+          "requested": 300,
+          "system_seconds": "110473.000",
+          "source_wait_seconds": "57454.000"
+        },
+        "X": {
+          "requested": 150,
+          "system_seconds": "10486.000",
+          "source_wait_seconds": "0.000"
+        }
+      },
+      "open_s23": {
+        "M": {
+          "requested": 3000,
+          "system_seconds": "330104.000",
+          "source_wait_seconds": "0.000"
+        },
+        "R": {
+          "requested": 600,
+          "system_seconds": "57314.000",
+          "source_wait_seconds": "0.000"
+        },
+        "U": {
+          "requested": 300,
+          "system_seconds": "20022.000",
+          "source_wait_seconds": "0.000"
+        },
+        "X": {
+          "requested": 150,
+          "system_seconds": "10303.000",
+          "source_wait_seconds": "0.000"
+        }
+      },
+      "v15_s23": {
+        "M": {
+          "requested": 3000,
+          "system_seconds": "228936.000",
+          "source_wait_seconds": "0.000"
+        },
+        "R": {
+          "requested": 600,
+          "system_seconds": "399909.000",
+          "source_wait_seconds": "169917.000"
+        },
+        "U": {
+          "requested": 300,
+          "system_seconds": "123469.000",
+          "source_wait_seconds": "67986.000"
+        },
+        "X": {
+          "requested": 150,
+          "system_seconds": "10432.000",
+          "source_wait_seconds": "0.000"
+        }
+      },
+      "open_s42": {
+        "M": {
+          "requested": 3000,
+          "system_seconds": "418512.000",
+          "source_wait_seconds": "19452.000"
+        },
+        "R": {
+          "requested": 600,
+          "system_seconds": "58971.000",
+          "source_wait_seconds": "0.000"
+        },
+        "U": {
+          "requested": 300,
+          "system_seconds": "19828.000",
+          "source_wait_seconds": "0.000"
+        },
+        "X": {
+          "requested": 150,
+          "system_seconds": "10355.000",
+          "source_wait_seconds": "0.000"
+        }
+      },
+      "v15_s42": {
+        "M": {
+          "requested": 3000,
+          "system_seconds": "227221.000",
+          "source_wait_seconds": "0.000"
+        },
+        "R": {
+          "requested": 600,
+          "system_seconds": "409993.000",
+          "source_wait_seconds": "175759.000"
+        },
+        "U": {
+          "requested": 300,
+          "system_seconds": "126519.000",
+          "source_wait_seconds": "70292.000"
+        },
+        "X": {
+          "requested": 150,
+          "system_seconds": "10737.000",
+          "source_wait_seconds": "0.000"
+        }
+      }
+    },
+    "replay_cohorts": {
+      "open_s17": {
+        "M": {
+          "requested": 3000,
+          "system_seconds": "467230.000",
+          "source_wait_seconds": "19762.000"
+        },
+        "R": {
+          "requested": 600,
+          "system_seconds": "58984.000",
+          "source_wait_seconds": "0.000"
+        },
+        "U": {
+          "requested": 300,
+          "system_seconds": "19888.000",
+          "source_wait_seconds": "0.000"
+        },
+        "X": {
+          "requested": 150,
+          "system_seconds": "10289.000",
+          "source_wait_seconds": "0.000"
+        }
+      },
+      "v15_s17": {
+        "M": {
+          "requested": 3000,
+          "system_seconds": "230515.000",
+          "source_wait_seconds": "0.000"
+        },
+        "R": {
+          "requested": 600,
+          "system_seconds": "365441.000",
+          "source_wait_seconds": "143668.000"
+        },
+        "U": {
+          "requested": 300,
+          "system_seconds": "110473.000",
+          "source_wait_seconds": "57454.000"
+        },
+        "X": {
+          "requested": 150,
+          "system_seconds": "10486.000",
+          "source_wait_seconds": "0.000"
+        }
+      },
+      "open_s23": {
+        "M": {
+          "requested": 3000,
+          "system_seconds": "330104.000",
+          "source_wait_seconds": "0.000"
+        },
+        "R": {
+          "requested": 600,
+          "system_seconds": "57314.000",
+          "source_wait_seconds": "0.000"
+        },
+        "U": {
+          "requested": 300,
+          "system_seconds": "20022.000",
+          "source_wait_seconds": "0.000"
+        },
+        "X": {
+          "requested": 150,
+          "system_seconds": "10303.000",
+          "source_wait_seconds": "0.000"
+        }
+      },
+      "v15_s23": {
+        "M": {
+          "requested": 3000,
+          "system_seconds": "228936.000",
+          "source_wait_seconds": "0.000"
+        },
+        "R": {
+          "requested": 600,
+          "system_seconds": "399909.000",
+          "source_wait_seconds": "169917.000"
+        },
+        "U": {
+          "requested": 300,
+          "system_seconds": "123469.000",
+          "source_wait_seconds": "67986.000"
+        },
+        "X": {
+          "requested": 150,
+          "system_seconds": "10432.000",
+          "source_wait_seconds": "0.000"
+        }
+      },
+      "open_s42": {
+        "M": {
+          "requested": 3000,
+          "system_seconds": "418512.000",
+          "source_wait_seconds": "19452.000"
+        },
+        "R": {
+          "requested": 600,
+          "system_seconds": "58971.000",
+          "source_wait_seconds": "0.000"
+        },
+        "U": {
+          "requested": 300,
+          "system_seconds": "19828.000",
+          "source_wait_seconds": "0.000"
+        },
+        "X": {
+          "requested": 150,
+          "system_seconds": "10355.000",
+          "source_wait_seconds": "0.000"
+        }
+      },
+      "v15_s42": {
+        "M": {
+          "requested": 3000,
+          "system_seconds": "227221.000",
+          "source_wait_seconds": "0.000"
+        },
+        "R": {
+          "requested": 600,
+          "system_seconds": "409993.000",
+          "source_wait_seconds": "175759.000"
+        },
+        "U": {
+          "requested": 300,
+          "system_seconds": "126519.000",
+          "source_wait_seconds": "70292.000"
+        },
+        "X": {
+          "requested": 150,
+          "system_seconds": "10737.000",
+          "source_wait_seconds": "0.000"
+        }
+      }
+    },
+    "paired_rows": 12,
+    "status": "PASS_REPLAY_AND_ARCHIVE"
+  }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="https://sumo.dlr.de/xsd/additional_file.xsd">
+    <!--
+      E2 source fallback: endPos=-0.1 remains on the named lane and avoids
+      implicit extension through a junction. The runner replaces it with the
+      compiled lane length after netconvert, giving each runtime E2 exact
+      [0, lane-length] coverage without hard-coding a compiled length here.
+    -->
+    <laneAreaDetector id="shared_boundary_e2" lane="shared_approach_0"
+                      pos="0" endPos="-0.1" period="30"
+                      file="detector_shared.xml"/>
+    <laneAreaDetector id="ramp_storage_e2" lane="ramp_storage_0"
+                      pos="0" endPos="-0.1" period="30"
+                      file="detector_ramp.xml"/>
+
+    <!-- Merge observation positions and aggregation period are technical placeholders. -->
+    <inductionLoop id="merge_upstream_e1_l0" lane="main_up_0"
+                   pos="-1" period="30" file="merge_upstream_l0.xml"/>
+    <inductionLoop id="merge_upstream_e1_l1" lane="main_up_1"
+                   pos="-1" period="30" file="merge_upstream_l1.xml"/>
+    <inductionLoop id="mainline_merge_entry_e1_l0" lane=":freeway_merge_1_0"
+                   pos="4.32" period="30" file="mainline_merge_entry_l0.xml"/>
+    <inductionLoop id="mainline_merge_entry_e1_l1" lane=":freeway_merge_1_1"
+                   pos="4.32" period="30" file="mainline_merge_entry_l1.xml"/>
+    <inductionLoop id="merge_downstream_e1_l0" lane="main_down_0"
+                   pos="100" period="30" file="merge_downstream_l0.xml"/>
+    <inductionLoop id="merge_downstream_e1_l1" lane="main_down_1"
+                   pos="100" period="30" file="merge_downstream_l1.xml"/>
+    <timedEvent type="SaveTLSStates" source="urban_tls" dest="tls_states.xml"/>
+</additional>
