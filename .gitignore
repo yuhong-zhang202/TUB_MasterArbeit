@@ -1,0 +1,17 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local replay outputs
+/replay_runs/
+/replay_checks/
+/archive_check.json
+/replay_check.json
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
