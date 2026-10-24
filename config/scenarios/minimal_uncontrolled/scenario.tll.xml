@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tlLogics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="https://sumo.dlr.de/xsd/tllogic_file.xsd">
+    <!-- Static timing is a technical placeholder, not an approved signal plan. -->
+    <tlLogic id="urban_tls" type="static" programID="technical_placeholder" offset="0">
+        <phase duration="45" state="Gr"/>
+        <phase duration="3" state="yr"/>
+        <phase duration="9" state="rG"/>
+        <phase duration="3" state="ry"/>
+    </tlLogic>
+</tlLogics>

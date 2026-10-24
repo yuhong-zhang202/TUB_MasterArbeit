@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="https://sumo.dlr.de/xsd/connections_file.xsd">
+    <connection from="main_up" to="main_down" fromLane="0" toLane="0"/>
+    <connection from="main_up" to="main_down" fromLane="1" toLane="1"/>
+    <connection from="ramp_accel" to="main_down" fromLane="0" toLane="0"/>
+
+    <connection from="urban_in" to="shared_approach" fromLane="0" toLane="0"/>
+    <connection from="cross_in" to="cross_out" fromLane="0" toLane="0"/>
+
+    <connection from="shared_approach" to="ramp_storage" fromLane="0" toLane="0"/>
+    <connection from="shared_approach" to="urban_out" fromLane="0" toLane="0"/>
+    <connection from="ramp_storage" to="ramp_accel" fromLane="0" toLane="0"/>
+</connections>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-09-20T13:25:31.924922+01:00 by Eclipse SUMO netconvert 1.26.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="PROJECT_ROOT/artifacts/stage6_targeted_validation_20260920_v1/engineering/network_inputs/candidate.nod.xml"/>
+        <edge-files value="PROJECT_ROOT/artifacts/stage6_targeted_validation_20260920_v1/engineering/network_inputs/candidate.edg.xml"/>
+        <connection-files value="PROJECT_ROOT/artifacts/stage6_targeted_validation_20260920_v1/engineering/network_inputs/candidate.con.xml"/>
+        <tllogic-files value="PROJECT_ROOT/artifacts/stage6_targeted_validation_20260920_v1/engineering/network_inputs/candidate.tll.xml"/>
+    </input>
+
+    <output>
+        <output-file value="PROJECT_ROOT/artifacts/stage6_targeted_validation_20260920_v1/engineering/build_attempts/TV_BUILD01/network.net.xml"/>
+    </output>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+</netconvertConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="800.00,900.00" convBoundary="0.00,0.00,2200.00,900.00" origBoundary="-800.00,-900.00,1400.00,0.00" projParameter="!"/>
+
+    <edge id=":freeway_merge_0" function="internal">
+        <lane id=":freeway_merge_0_0" index="0" speed="33.33" length="3.11" width="3.20" shape="1398.38,895.20 1401.49,895.20"/>
+        <lane id=":freeway_merge_0_1" index="1" speed="33.33" length="3.11" width="3.20" shape="1398.38,898.40 1401.49,898.40"/>
+    </edge>
+    <edge id=":freeway_merge_2" function="internal">
+        <lane id=":freeway_merge_2_0" index="0" speed="30.55" length="3.11" width="3.20" shape="1398.38,892.04 1401.49,892.00"/>
+    </edge>
+    <edge id=":merge_end_0" function="internal">
+        <lane id=":merge_end_0_0" index="0" speed="33.33" length="8.00" width="3.20" shape="1696.00,895.20 1704.00,895.20"/>
+        <lane id=":merge_end_0_1" index="1" speed="33.33" length="8.00" width="3.20" shape="1696.00,898.40 1704.00,898.40"/>
+    </edge>
+    <edge id=":ramp_mid_0" function="internal">
+        <lane id=":ramp_mid_0_0" index="0" speed="25.00" length="81.98" width="3.20" shape="1220.78,863.61 1234.36,867.60 1260.34,874.07 1286.43,880.26 1300.31,883.43"/>
+    </edge>
+    <edge id=":urban_diverge_0" function="internal">
+        <lane id=":urban_diverge_0_0" index="0" speed="6.51" length="9.03" width="3.20" shape="1001.60,642.80 1001.95,645.25 1003.00,647.00 1004.75,648.05 1007.20,648.40"/>
+    </edge>
+    <edge id=":urban_diverge_1" function="internal">
+        <lane id=":urban_diverge_1_0" index="0" speed="18.05" length="113.08" width="3.20" shape="1001.60,642.80 1010.40,659.42 1030.04,691.38 1050.34,723.07 1061.13,738.87"/>
+    </edge>
+    <edge id=":urban_tls_0" function="internal">
+        <lane id=":urban_tls_0_0" index="0" speed="13.89" length="11.20" width="3.20" shape="1001.60,392.80 1001.60,404.00"/>
+    </edge>
+    <edge id=":urban_tls_1" function="internal">
+        <lane id=":urban_tls_1_0" index="0" speed="13.89" length="11.20" width="3.20" shape="996.00,398.40 1007.20,398.40"/>
+    </edge>
+
+    <edge id="cross_in" from="cross_in" to="urban_tls" priority="1">
+        <lane id="cross_in_0" index="0" speed="13.89" length="446.00" width="3.20" shape="550.00,398.40 996.00,398.40"/>
+    </edge>
+    <edge id="cross_out" from="urban_tls" to="cross_out" priority="1">
+        <lane id="cross_out_0" index="0" speed="13.89" length="442.80" width="3.20" shape="1007.20,398.40 1450.00,398.40"/>
+    </edge>
+    <edge id="main_down" from="merge_end" to="main_out" priority="3">
+        <lane id="main_down_0" index="0" speed="33.33" length="496.00" width="3.20" shape="1704.00,895.20 2200.00,895.20"/>
+        <lane id="main_down_1" index="1" speed="33.33" length="496.00" width="3.20" shape="1704.00,898.40 2200.00,898.40"/>
+    </edge>
+    <edge id="main_up" from="main_in" to="freeway_merge" priority="3">
+        <lane id="main_up_0" index="0" speed="33.33" length="1398.38" width="3.20" shape="0.00,895.20 1398.38,895.20"/>
+        <lane id="main_up_1" index="1" speed="33.33" length="1398.38" width="3.20" shape="0.00,898.40 1398.38,898.40"/>
+    </edge>
+    <edge id="merge_section" from="freeway_merge" to="merge_end" priority="3">
+        <lane id="merge_section_0" index="0" speed="33.33" length="294.51" width="3.20" acceleration="1" shape="1401.49,892.00 1696.00,892.00"/>
+        <lane id="merge_section_1" index="1" speed="33.33" length="294.51" width="3.20" shape="1401.49,895.20 1696.00,895.20" changeRight="authority"/>
+        <lane id="merge_section_2" index="2" speed="33.33" length="294.51" width="3.20" shape="1401.49,898.40 1696.00,898.40"/>
+    </edge>
+    <edge id="ramp_accel" from="ramp_mid" to="freeway_merge" priority="2" shape="1300.00,885.00 1350.00,895.00 1400.00,893.60">
+        <lane id="ramp_accel_0" index="0" speed="27.78" length="99.07" width="3.20" shape="1300.31,883.43 1350.14,893.40 1398.38,892.04"/>
+    </edge>
+    <edge id="ramp_storage" from="urban_diverge" to="ramp_mid" priority="2" shape="1060.00,740.00 1140.00,820.00 1220.00,865.00">
+        <lane id="ramp_storage_0" index="0" speed="22.22" length="204.49" width="3.20" shape="1061.13,738.87 1140.98,818.71 1220.78,863.61"/>
+    </edge>
+    <edge id="shared_approach" from="urban_tls" to="urban_diverge" priority="2">
+        <lane id="shared_approach_0" index="0" speed="13.89" length="238.80" width="3.20" shape="1001.60,404.00 1001.60,642.80"/>
+    </edge>
+    <edge id="urban_in" from="urban_in" to="urban_tls" priority="2">
+        <lane id="urban_in_0" index="0" speed="13.89" length="392.80" width="3.20" shape="1001.60,0.00 1001.60,392.80"/>
+    </edge>
+    <edge id="urban_out" from="urban_diverge" to="urban_out" priority="2">
+        <lane id="urban_out_0" index="0" speed="13.89" length="442.80" width="3.20" shape="1007.20,648.40 1450.00,648.40"/>
+    </edge>
+
+    <tlLogic id="ramp_mid" type="static" programID="A_OPEN" offset="0">
+        <phase duration="60" state="G"/>
+    </tlLogic>
+    <tlLogic id="ramp_mid" type="static" programID="B_MODERATE" offset="0">
+        <phase duration="22" state="G"/>
+        <phase duration="3"  state="y"/>
+        <phase duration="35" state="r"/>
+    </tlLogic>
+    <tlLogic id="ramp_mid" type="static" programID="C_STRONG" offset="0">
+        <phase duration="12" state="G"/>
+        <phase duration="3"  state="y"/>
+        <phase duration="45" state="r"/>
+    </tlLogic>
+    <tlLogic id="urban_tls" type="static" programID="technical_placeholder" offset="0">
+        <phase duration="45" state="Gr"/>
+        <phase duration="3"  state="yr"/>
+        <phase duration="9"  state="rG"/>
+        <phase duration="3"  state="ry"/>
+    </tlLogic>
+
+    <junction id="cross_in" type="dead_end" x="550.00" y="400.00" incLanes="" intLanes="" shape="550.00,400.00 550.00,396.80"/>
+    <junction id="cross_out" type="dead_end" x="1450.00" y="400.00" incLanes="cross_out_0" intLanes="" shape="1450.00,396.80 1450.00,400.00"/>
+    <junction id="freeway_merge" type="priority" x="1400.00" y="900.00" incLanes="main_up_0 main_up_1 ramp_accel_0" intLanes=":freeway_merge_0_0 :freeway_merge_0_1 :freeway_merge_2_0" shape="1401.49,900.00 1401.49,890.40 1398.38,890.44 1398.38,900.00">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="main_in" type="dead_end" x="0.00" y="900.00" incLanes="" intLanes="" shape="0.00,900.00 0.00,893.60"/>
+    <junction id="main_out" type="dead_end" x="2200.00" y="900.00" incLanes="main_down_0 main_down_1" intLanes="" shape="2200.00,893.60 2200.00,900.00"/>
+    <junction id="merge_end" type="priority" x="1700.00" y="900.00" incLanes="merge_section_0 merge_section_1 merge_section_2" intLanes=":merge_end_0_0 :merge_end_0_1" shape="1704.00,900.00 1704.00,893.60 1700.97,892.77 1699.03,891.23 1697.79,890.64 1696.00,890.40 1696.00,900.00">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="ramp_mid" type="traffic_light" x="1250.00" y="870.00" incLanes="ramp_storage_0" intLanes=":ramp_mid_0_0" shape="1300.00,885.00 1300.63,881.86 1287.77,879.56 1274.08,877.31 1260.08,874.79 1246.30,871.66 1233.29,867.58 1221.57,862.21 1220.00,865.00 1231.79,870.40 1244.98,874.54 1258.98,877.76 1273.21,880.36 1287.08,882.67">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="urban_diverge" type="priority" x="1000.00" y="650.00" incLanes="shared_approach_0" intLanes=":urban_diverge_0_0 :urban_diverge_1_0" shape="1060.00,740.00 1062.26,737.74 1007.20,650.00 1007.20,646.80 1004.98,646.36 1004.20,645.80 1003.64,645.02 1003.31,644.02 1003.20,642.80 1000.00,642.80 1003.22,657.45 1011.63,675.18 1023.37,694.15 1036.59,712.50 1049.42,728.40">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="urban_in" type="dead_end" x="1000.00" y="0.00" incLanes="" intLanes="" shape="1000.00,0.00 1003.20,0.00"/>
+    <junction id="urban_out" type="dead_end" x="1450.00" y="650.00" incLanes="urban_out_0" intLanes="" shape="1450.00,646.80 1450.00,650.00"/>
+    <junction id="urban_tls" type="traffic_light" x="1000.00" y="400.00" incLanes="urban_in_0 cross_in_0" intLanes=":urban_tls_0_0 :urban_tls_1_0" shape="1000.00,404.00 1003.20,404.00 1003.64,401.78 1004.20,401.00 1004.98,400.44 1005.98,400.11 1007.20,400.00 1007.20,396.80 1004.98,396.36 1004.20,395.80 1003.64,395.02 1003.31,394.02 1003.20,392.80 1000.00,392.80 999.56,395.02 999.00,395.80 998.22,396.36 997.22,396.69 996.00,396.80 996.00,400.00 998.22,400.44 999.00,401.00 999.56,401.78 999.89,402.78">
+        <request index="0" response="00" foes="10" cont="0"/>
+        <request index="1" response="01" foes="01" cont="0"/>
+    </junction>
+
+    <connection from="cross_in" to="cross_out" fromLane="0" toLane="0" via=":urban_tls_1_0" tl="urban_tls" linkIndex="1" dir="s" state="o"/>
+    <connection from="main_up" to="merge_section" fromLane="0" toLane="1" via=":freeway_merge_0_0" dir="s" state="M"/>
+    <connection from="main_up" to="merge_section" fromLane="1" toLane="2" via=":freeway_merge_0_1" dir="s" state="M"/>
+    <connection from="merge_section" to="main_down" fromLane="1" toLane="0" via=":merge_end_0_0" dir="s" state="M"/>
+    <connection from="merge_section" to="main_down" fromLane="2" toLane="1" via=":merge_end_0_1" dir="s" state="M"/>
+    <connection from="ramp_accel" to="merge_section" fromLane="0" toLane="0" via=":freeway_merge_2_0" dir="s" state="M"/>
+    <connection from="ramp_storage" to="ramp_accel" fromLane="0" toLane="0" via=":ramp_mid_0_0" tl="ramp_mid" linkIndex="0" dir="s" state="O"/>
+    <connection from="shared_approach" to="urban_out" fromLane="0" toLane="0" via=":urban_diverge_0_0" dir="r" state="M"/>
+    <connection from="shared_approach" to="ramp_storage" fromLane="0" toLane="0" via=":urban_diverge_1_0" dir="R" state="M"/>
+    <connection from="urban_in" to="shared_approach" fromLane="0" toLane="0" via=":urban_tls_0_0" tl="urban_tls" linkIndex="0" dir="s" state="O"/>
+
+    <connection from=":freeway_merge_0" to="merge_section" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":freeway_merge_0" to="merge_section" fromLane="1" toLane="2" dir="s" state="M"/>
+    <connection from=":freeway_merge_2" to="merge_section" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":merge_end_0" to="main_down" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":merge_end_0" to="main_down" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":ramp_mid_0" to="ramp_accel" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":urban_diverge_0" to="urban_out" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":urban_diverge_1" to="ramp_storage" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":urban_tls_0" to="shared_approach" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":urban_tls_1" to="cross_out" fromLane="0" toLane="0" dir="s" state="M"/>
+
+</net>

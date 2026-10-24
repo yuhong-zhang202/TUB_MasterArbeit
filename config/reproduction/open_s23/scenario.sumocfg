@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sumoConfiguration>
+  <input>
+    <net-file value="network.net.xml" />
+    <route-files value="demand.rou.xml" />
+    <additional-files value="scenario.add.xml" />
+  </input>
+  <time>
+    <begin value="0" />
+    <end value="4200" />
+    <step-length value="1" />
+  </time>
+  <processing>
+    <time-to-teleport value="-1" />
+    <collision.action value="warn" />
+    <collision.check-junctions value="true" />
+    <extrapolate-departpos value="false" />
+  </processing>
+  <output>
+    <fcd-output value="outputs/fcd.xml.gz" />
+    <queue-output value="outputs/queues.xml" />
+    <summary-output value="outputs/sumo_summary.xml" />
+    <tripinfo-output value="outputs/tripinfo.xml" />
+    <vehroute-output value="outputs/vehroute.xml" />
+    <tripinfo-output.write-unfinished value="true" />
+    <vehroute-output.write-unfinished value="true" />
+    <precision value="2" />
+    <tripinfo-output.write-undeparted value="true" />
+    <lanechange-output value="outputs/lanechanges.xml" />
+  </output>
+  <random_number>
+    <seed value="23" />
+  </random_number>
+  <report>
+    <log value="outputs/sumo.log" />
+    <error-log value="outputs/sumo_error.log" />
+    <no-step-log value="true" />
+    <xml-validation value="always" />
+  </report>
+</sumoConfiguration>

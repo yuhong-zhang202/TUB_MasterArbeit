@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://sumo.dlr.de/xsd/nodes_file.xsd">
+    <!-- All coordinates and junction types are technical placeholders. -->
+    <node id="main_in" x="-800" y="0" type="dead_end"/>
+    <node id="freeway_merge" x="600" y="0" type="priority"/>
+    <node id="main_out" x="1400" y="0" type="dead_end"/>
+
+    <node id="urban_in" x="200" y="-900" type="dead_end"/>
+    <node id="urban_tls" x="200" y="-500" type="traffic_light" tl="urban_tls"/>
+    <node id="urban_diverge" x="200" y="-250" type="priority"/>
+    <node id="urban_out" x="650" y="-250" type="dead_end"/>
+
+    <node id="cross_in" x="-250" y="-500" type="dead_end"/>
+    <node id="cross_out" x="650" y="-500" type="dead_end"/>
+
+    <node id="ramp_mid" x="450" y="-30" type="priority"/>
+</nodes>

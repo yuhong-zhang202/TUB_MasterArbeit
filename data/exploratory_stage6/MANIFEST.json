@@ -1,0 +1,1768 @@
+{
+  "schema": "STAGE6_DERIVED_PUBLIC_COPY_V1",
+  "classification": "exploratory_derived_public_copy",
+  "description": "Six paired OPEN/V15 runs; original raw files remain unchanged.",
+  "transformation": "Only the local project prefix in SUMO XML configuration comments is replaced by PROJECT_ROOT/. CSV bytes are identical.",
+  "files": [
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/fcd.xml.gz",
+      "source_sha256": "89a14f50c6a627276e9f3562f002376f362025e471de77b413cac7666972a790",
+      "source_bytes": 8290859,
+      "copy": "open_s17/fcd.xml.gz",
+      "copy_sha256": "500c55306add3fea67b2ee6e3f2cfe60727b76b1942f7492952bc52265e8e9e0",
+      "copy_bytes": 7932441,
+      "xml_element_counts": {
+        "fcd-export": 1,
+        "timestep": 4200,
+        "vehicle": 536629
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/lanechanges.xml",
+      "source_sha256": "16ab60e65ddb3a91d4bb3747ea008680813d2fe26ded08325c9fae9446537fbd",
+      "source_bytes": 480527,
+      "copy": "open_s17/lanechanges.xml",
+      "copy_sha256": "844480366c52db505d1b350ce6e823c1ced7d06cbdb3c261ddeda8d048345db9",
+      "copy_bytes": 480076,
+      "xml_element_counts": {
+        "change": 1305,
+        "lanechanges": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/p1_main_down_200_l0.xml",
+      "source_sha256": "640d29be225aa01705b91bd2018f0d2e5b7ae7c7710ab95822428b655e04259e",
+      "source_bytes": 29586,
+      "copy": "open_s17/p1_main_down_200_l0.xml",
+      "copy_sha256": "9817c5caed7c1b5a1bbce45f8a6749d06a66df38b4ab0d3562e01e7c358583dd",
+      "copy_bytes": 29135,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/p1_main_down_200_l1.xml",
+      "source_sha256": "7a44ee1ce7cadcc2043ea96d3df74ce84d26ad0c72de45a0498b71d3157ef151",
+      "source_bytes": 29633,
+      "copy": "open_s17/p1_main_down_200_l1.xml",
+      "copy_sha256": "3bd5e079f3887993de05727c2435bd3c12485ddaf75e465c40dbe27736a8c699",
+      "copy_bytes": 29182,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/p1_main_down_20_l0.xml",
+      "source_sha256": "8475b32c5c55dd4fc5096c013b1a08993a00209be948eeab0535873de8583501",
+      "source_bytes": 29483,
+      "copy": "open_s17/p1_main_down_20_l0.xml",
+      "copy_sha256": "85f1a5b6b061eedb4be32dc18fa4eaf6eaeb46b3af388380654e41ec8bf322bb",
+      "copy_bytes": 29032,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/p1_main_down_20_l1.xml",
+      "source_sha256": "07bf92970b35f354f828a904dbcad4b2af6796b030ed15f8236e743f14ba82fc",
+      "source_bytes": 29495,
+      "copy": "open_s17/p1_main_down_20_l1.xml",
+      "copy_sha256": "0380b36c2262188333637edb52b1bd0eb3814b766f2c3301d730a43c477cc35d",
+      "copy_bytes": 29044,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/p1_main_up_1300_l0.xml",
+      "source_sha256": "7255644bda49554ff18431c8cf9d901afc556c67aa32c052e480a21757dc309d",
+      "source_bytes": 29236,
+      "copy": "open_s17/p1_main_up_1300_l0.xml",
+      "copy_sha256": "7d6f33a9a0de8083fcf37f3681c4af3288b6860b5c7947e1405a9edee29b50a2",
+      "copy_bytes": 28785,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/p1_main_up_1300_l1.xml",
+      "source_sha256": "dd5ae49578c4e283839ec40501f6f59880741d6ad4bc09a714fb2dabb6d65020",
+      "source_bytes": 29465,
+      "copy": "open_s17/p1_main_up_1300_l1.xml",
+      "copy_sha256": "f803a607e9b6617996bfc0e99e364e135b2694986f6e377c3ffdd7fe2f67029d",
+      "copy_bytes": 29014,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/p1_merge_section_20_l0.xml",
+      "source_sha256": "f8438114ab0f2f95bdfa829b17d8b84b065daab9c8a4aa4115ac2b44cbfd2469",
+      "source_bytes": 29669,
+      "copy": "open_s17/p1_merge_section_20_l0.xml",
+      "copy_sha256": "31e4ba93eeb2b3c283c5af205ac3a023c9a5c313fbdf8423ce5aec9bfc6cb058",
+      "copy_bytes": 29218,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/p1_merge_section_20_l1.xml",
+      "source_sha256": "777d6d122cfc61954a39e485339c55e8fcde0be5e957c089ce698edaa3861cdc",
+      "source_bytes": 29784,
+      "copy": "open_s17/p1_merge_section_20_l1.xml",
+      "copy_sha256": "0c262740db160b521e18b3f22038f02a2eca5781ad0f33dba14cb7b8b72e68d9",
+      "copy_bytes": 29333,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/p1_merge_section_20_l2.xml",
+      "source_sha256": "b6ac793248c1fa97eddc581b98b3b53985e2d66795bda08eeab3626ac9db5d2d",
+      "source_bytes": 30032,
+      "copy": "open_s17/p1_merge_section_20_l2.xml",
+      "copy_sha256": "bf3b95a7d1963c6e965c498c592a4e037ae47c76e3b4578c832d7adf226a1414",
+      "copy_bytes": 29581,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/queues.xml",
+      "source_sha256": "775edb62781cfda5d46c8c9bfeaa08e41c774d6c3cdeeed7a6fb295d4c76d3da",
+      "source_bytes": 1118360,
+      "copy": "open_s17/queues.xml",
+      "copy_sha256": "699b2897995982a75eceb4fb9435e5e0db6540479f15dd12a0afd386a93b9759",
+      "copy_bytes": 1117909,
+      "xml_element_counts": {
+        "data": 4200,
+        "lane": 6868,
+        "lanes": 4200,
+        "queue-export": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/ramp_storage_e2.xml",
+      "source_sha256": "034698216327bbedd694c96cccf3b3a4bbbb6e5b181a2d5ceca27519994a6de3",
+      "source_bytes": 91919,
+      "copy": "open_s17/ramp_storage_e2.xml",
+      "copy_sha256": "d0b219a9646a5e0d9c2009ca3c2fe82643187d5d0e22bd7cd8158bb7305fb7bd",
+      "copy_bytes": 91468,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/shared_boundary_e2.xml",
+      "source_sha256": "5fe629c8d7cecec2a8b7d057d599267f5cad26a2e644693d0010a943f01d3f2d",
+      "source_bytes": 92727,
+      "copy": "open_s17/shared_boundary_e2.xml",
+      "copy_sha256": "bb1c20c415676d02123059a71445dc6e8e1e97411e57d5b2284c7933a702b0b6",
+      "copy_bytes": 92276,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/sumo_summary.xml",
+      "source_sha256": "517275f87ef25bed8ff6a3d9b703f4247432386e12871c0bedcaaf6929791122",
+      "source_bytes": 1174872,
+      "copy": "open_s17/sumo_summary.xml",
+      "copy_sha256": "2609f6ceb9821a7ce787b365542359904e6bd48c996ff2ff1fc43c6f4d17ecf0",
+      "copy_bytes": 1174421,
+      "xml_element_counts": {
+        "step": 4200,
+        "summary": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/tls_states.xml",
+      "source_sha256": "721939620389245acb8e1dd08c692a7a8c775d31876606f0b1d762800d98d7e0",
+      "source_bytes": 777798,
+      "copy": "open_s17/tls_states.xml",
+      "copy_sha256": "428f9d0f151e624bf8b014048cd7fd644f10cc8c2350a2efc5c0ce49fd1dd090",
+      "copy_bytes": 777347,
+      "xml_element_counts": {
+        "tlsState": 8400,
+        "tlsStates": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/tripinfo.xml",
+      "source_sha256": "8199ecc9d402384c4baa228bdae62a320675cdb7e0b4133e2f68cb937933041d",
+      "source_bytes": 1880653,
+      "copy": "open_s17/tripinfo.xml",
+      "copy_sha256": "41b1eb756a2e16f0414a79f1d28e66220b85a6978ade871dc499796d619a4410",
+      "copy_bytes": 1880202,
+      "xml_element_counts": {
+        "tripinfo": 4050,
+        "tripinfos": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/vehroute.xml",
+      "source_sha256": "0a2ef2b8e845fef2d8ba988b40e25b7ea6435c6a019e6678b7037884f5ebb57a",
+      "source_bytes": 1006307,
+      "copy": "open_s17/vehroute.xml",
+      "copy_sha256": "7497cc70080db0dcfbd719270e737937562180f7817c10d8421df2cd58a5d2f7",
+      "copy_bytes": 1005856,
+      "xml_element_counts": {
+        "route": 4050,
+        "routes": 1,
+        "vehicle": 4050
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/controller_steps.csv",
+      "source_sha256": "ee6e28f272723f4f7d13294d111bc21eacc3d7d866fb17ab413d47119a0d9ff8",
+      "source_bytes": 17813798,
+      "copy": "v15_s17/controller_steps.csv",
+      "copy_sha256": "ee6e28f272723f4f7d13294d111bc21eacc3d7d866fb17ab413d47119a0d9ff8",
+      "copy_bytes": 17813798,
+      "csv_data_rows": 4200
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/detector_vehicle_events.csv",
+      "source_sha256": "94648e431b4a2fad55dc06cc89f96e3b9cf746e603c98b088189cc4876de9432",
+      "source_bytes": 500512,
+      "copy": "v15_s17/detector_vehicle_events.csv",
+      "copy_sha256": "94648e431b4a2fad55dc06cc89f96e3b9cf746e603c98b088189cc4876de9432",
+      "copy_bytes": 500512,
+      "csv_data_rows": 7144
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/fcd.xml.gz",
+      "source_sha256": "7ef63742e146ea5467bbc21705ba4f5da50c1f908545181b6b146c9f0346f455",
+      "source_bytes": 7973552,
+      "copy": "v15_s17/fcd.xml.gz",
+      "copy_sha256": "fedcaa5db62d1681e03db9e4fba22a9445579793845fff7ef5159592bf84f41e",
+      "copy_bytes": 7398441,
+      "xml_element_counts": {
+        "fcd-export": 1,
+        "timestep": 4200,
+        "vehicle": 515793
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/feedback_updates.csv",
+      "source_sha256": "ef5971b41d3b5ddc5f4d362ddf79bba6e43204c69f57fc5b25f919b64594ca34",
+      "source_bytes": 29334,
+      "copy": "v15_s17/feedback_updates.csv",
+      "copy_sha256": "ef5971b41d3b5ddc5f4d362ddf79bba6e43204c69f57fc5b25f919b64594ca34",
+      "copy_bytes": 29334,
+      "csv_data_rows": 119
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/lanechanges.xml",
+      "source_sha256": "cd45829826a5abdc1f70254829df7524cc9071cd00b715afc3c1f81020fbbd04",
+      "source_bytes": 472218,
+      "copy": "v15_s17/lanechanges.xml",
+      "copy_sha256": "9621d1cc8728cff8fadc5fc2897891a081763aa5e43505e0a3e3221595fb2d44",
+      "copy_bytes": 471767,
+      "xml_element_counts": {
+        "change": 1269,
+        "lanechanges": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/p1_main_down_200_l0.xml",
+      "source_sha256": "1354ed929012af9fd3daca6f0593208184b5861cbc7b22c8d26c799eafca62de",
+      "source_bytes": 29885,
+      "copy": "v15_s17/p1_main_down_200_l0.xml",
+      "copy_sha256": "f9553bc67dc5f5ac7b8e8bfe4f38e8ee1cd58b43b1e6a31ac3ca7c32232353e7",
+      "copy_bytes": 29434,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/p1_main_down_200_l1.xml",
+      "source_sha256": "aeb975071b42bbc9c60bed746f4e64c3fb9257371102aa7b91be55bb606fae4f",
+      "source_bytes": 29893,
+      "copy": "v15_s17/p1_main_down_200_l1.xml",
+      "copy_sha256": "8b0e283ab57ea4f8f74b9b9b5f3792eae42a68ea462c8ea8f21e32f8c69588ae",
+      "copy_bytes": 29442,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/p1_main_down_20_l0.xml",
+      "source_sha256": "883ac640de83f28211702fe10bd3e3bdedd37559350cc735ce2bafa4f552b91d",
+      "source_bytes": 29749,
+      "copy": "v15_s17/p1_main_down_20_l0.xml",
+      "copy_sha256": "0c903792a04ca47700fd1ee30ca1b74bde533740a8ea3af983b1dea32169d058",
+      "copy_bytes": 29298,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/p1_main_down_20_l1.xml",
+      "source_sha256": "4ee65ab30268dbaf121c48572126dd02d5e1cc9c88e4cecc4830b0dc1985fb32",
+      "source_bytes": 29749,
+      "copy": "v15_s17/p1_main_down_20_l1.xml",
+      "copy_sha256": "0d8e0ce9a930903ec170b4efa061659f12d2b3d5beb5d510849ffd9fb931f070",
+      "copy_bytes": 29298,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/p1_main_up_1300_l0.xml",
+      "source_sha256": "847cf259ef07abf1b3995d83b8d0f402acab8c2878cf8a0d03fa32a56c979ef7",
+      "source_bytes": 29664,
+      "copy": "v15_s17/p1_main_up_1300_l0.xml",
+      "copy_sha256": "da7898c675dd9ed5619e147b481ebd85ece57e1f70198654c1e7a8efa5af10bb",
+      "copy_bytes": 29213,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/p1_main_up_1300_l1.xml",
+      "source_sha256": "8aef7636436e754ce10001654031bd8d986e4c3a95bdfb0723327a019b10480d",
+      "source_bytes": 29713,
+      "copy": "v15_s17/p1_main_up_1300_l1.xml",
+      "copy_sha256": "d8f70daa39eb60a730b6c807c73611512b529324b3069e09260f6be03742339b",
+      "copy_bytes": 29262,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/p1_merge_section_20_l0.xml",
+      "source_sha256": "d3a08a01c258be7015ebd737be85ae26ef7d083e512048d315ebcc8b97aaf518",
+      "source_bytes": 29917,
+      "copy": "v15_s17/p1_merge_section_20_l0.xml",
+      "copy_sha256": "47f922830088cb1962613f1bd5f22f46b4bc75e6f5d8a4c43da7647e59bba7eb",
+      "copy_bytes": 29466,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/p1_merge_section_20_l1.xml",
+      "source_sha256": "9e4b45a47b2babf59ad82917a70c0f163164653ed4799c70625fa1edc9696d5b",
+      "source_bytes": 30290,
+      "copy": "v15_s17/p1_merge_section_20_l1.xml",
+      "copy_sha256": "e5f53c9d5eafce5c4dda16fa11d918cd8f11b292f077d097f7ceb5c17b431a97",
+      "copy_bytes": 29839,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/p1_merge_section_20_l2.xml",
+      "source_sha256": "fcc231c467c738ac45c82a19cd120aba14d49c7a18c775a8fb6e3c791865a155",
+      "source_bytes": 30279,
+      "copy": "v15_s17/p1_merge_section_20_l2.xml",
+      "copy_sha256": "f40798a90b4645666cd38f0cca576a50ea0b8f9a152acc293611bf50c8ef2e24",
+      "copy_bytes": 29828,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/queues.xml",
+      "source_sha256": "6848eb154c9a6805e069fe5cd1361c2a54e4024f11794a544cf0238536c5f033",
+      "source_bytes": 1949638,
+      "copy": "v15_s17/queues.xml",
+      "copy_sha256": "7b62ec9770245d822173a10f66a556389e6b9f4a2fad2b7b01d9ab7d776bd3ce",
+      "copy_bytes": 1949187,
+      "xml_element_counts": {
+        "data": 4200,
+        "lane": 13461,
+        "lanes": 4200,
+        "queue-export": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/ramp_storage_e2.xml",
+      "source_sha256": "2b5ccacb1bf86e956726e0548ba44d44b48c8fe765eff4ba88e54267bad96a94",
+      "source_bytes": 93974,
+      "copy": "v15_s17/ramp_storage_e2.xml",
+      "copy_sha256": "b42f16ad4652c8d8632d7554d324e55813fcacfe31f11dc6094e74aa22b2be8f",
+      "copy_bytes": 93523,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/service_windows.csv",
+      "source_sha256": "c5adedf3ed8a7034798d04aa6ffd90e4124470aecaaa16abbf751bdb879d8dc7",
+      "source_bytes": 1958,
+      "copy": "v15_s17/service_windows.csv",
+      "copy_sha256": "c5adedf3ed8a7034798d04aa6ffd90e4124470aecaaa16abbf751bdb879d8dc7",
+      "copy_bytes": 1958,
+      "csv_data_rows": 31
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/shared_boundary_e2.xml",
+      "source_sha256": "6b7f649c8f7dd48328ea3e7f656eabfe290eb1e4f5a16d41cbde695671d89911",
+      "source_bytes": 93923,
+      "copy": "v15_s17/shared_boundary_e2.xml",
+      "copy_sha256": "aac1da79f78fb1e54147aeabd5a23403ea4c5ab9303be1e1d065e46b7de5ba73",
+      "copy_bytes": 93472,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/sumo_summary.xml",
+      "source_sha256": "6339de895a4aaefa4853758df8d581d9d03b435151b8ce336c68c5360f43bf8e",
+      "source_bytes": 1178429,
+      "copy": "v15_s17/sumo_summary.xml",
+      "copy_sha256": "6092de8b8a98c5fed0856d3c92187507e120ce75f99cf4368772540c4b74cce8",
+      "copy_bytes": 1177978,
+      "xml_element_counts": {
+        "step": 4200,
+        "summary": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/tls_states.xml",
+      "source_sha256": "4199aa5686a660f4b53245de3ff5d5836d8c2adc41ebcc80990fcb49dadf429c",
+      "source_bytes": 778085,
+      "copy": "v15_s17/tls_states.xml",
+      "copy_sha256": "dee734b6fd79f1f2a31436fdcbf667e2b1c8df61febaad7eb21ada43e67152a3",
+      "copy_bytes": 777634,
+      "xml_element_counts": {
+        "tlsState": 8400,
+        "tlsStates": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/tripinfo.xml",
+      "source_sha256": "68ff5bcf0bb57c3cde82b6b90094b1aa1d9eaed06774bbfa9c1bffdfaff5aad3",
+      "source_bytes": 1879440,
+      "copy": "v15_s17/tripinfo.xml",
+      "copy_sha256": "a4af3ddc466b318e83cd163d8911464539717098ccc226452860b9e0dcbebbf6",
+      "copy_bytes": 1878989,
+      "xml_element_counts": {
+        "tripinfo": 4050,
+        "tripinfos": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/vehicle_metadata.csv",
+      "source_sha256": "853277cb141919dd0d5ecf14fe84ce2701f84a139eaa59ca5278cc400adc4b78",
+      "source_bytes": 190615,
+      "copy": "v15_s17/vehicle_metadata.csv",
+      "copy_sha256": "853277cb141919dd0d5ecf14fe84ce2701f84a139eaa59ca5278cc400adc4b78",
+      "copy_bytes": 190615,
+      "csv_data_rows": 4050
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/vehroute.xml",
+      "source_sha256": "1aaf0e9204d77f645fd7c33e996e435de90448a7c03a7608f4b4de744130902d",
+      "source_bytes": 1006319,
+      "copy": "v15_s17/vehroute.xml",
+      "copy_sha256": "28ea6b0a41854a70718b612a7298aa85156ad9b195b50f3d4f31cd8c39bb7e9a",
+      "copy_bytes": 1005868,
+      "xml_element_counts": {
+        "route": 4050,
+        "routes": 1,
+        "vehicle": 4050
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/fcd.xml.gz",
+      "source_sha256": "e67f219acc191a5ce3bbbfce7dd40c21ad9e1c2b9aa11b836f6d5104b1d4afa9",
+      "source_bytes": 6230854,
+      "copy": "open_s23/fcd.xml.gz",
+      "copy_sha256": "54ee83f17e0758bb32aeeebc815624db2d787c98cafcdf664c876c82cba7e626",
+      "copy_bytes": 5832564,
+      "xml_element_counts": {
+        "fcd-export": 1,
+        "timestep": 4200,
+        "vehicle": 417743
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/lanechanges.xml",
+      "source_sha256": "a976da122d2c4cd3135b022d3b32ca0e1880f4b340bf85cff29f6b1e425c3218",
+      "source_bytes": 481292,
+      "copy": "open_s23/lanechanges.xml",
+      "copy_sha256": "353ade948a398de9bbc38b3766d7bd0638951a21a66d9d124278d02735052147",
+      "copy_bytes": 480841,
+      "xml_element_counts": {
+        "change": 1301,
+        "lanechanges": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/p1_main_down_200_l0.xml",
+      "source_sha256": "678d13cd179131b531385d1d49558b2eab01b4dff479c6d69cff34cde9672143",
+      "source_bytes": 29577,
+      "copy": "open_s23/p1_main_down_200_l0.xml",
+      "copy_sha256": "edfd20f274da8ac1e4b885944b862724de9ebc846a3c82c53b95ef6a5bd646f0",
+      "copy_bytes": 29126,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/p1_main_down_200_l1.xml",
+      "source_sha256": "9505dfdfe23398dcccceb5eff02ab339fb1970b2253461de6cf6825b8b58041c",
+      "source_bytes": 29615,
+      "copy": "open_s23/p1_main_down_200_l1.xml",
+      "copy_sha256": "3bac88fb52cfa307b2a9f362bb66df2cf43d5e39133f2435ef3311143c4101ee",
+      "copy_bytes": 29164,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/p1_main_down_20_l0.xml",
+      "source_sha256": "c746a8e9e0f7dec9399dd21ee46c28a2aee0e3c296d3b6e581f54c9642940c7b",
+      "source_bytes": 29472,
+      "copy": "open_s23/p1_main_down_20_l0.xml",
+      "copy_sha256": "93f02d614c95b06e770c18a80b712245aa8afbaced11334965f12dd8a0b8b23f",
+      "copy_bytes": 29021,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/p1_main_down_20_l1.xml",
+      "source_sha256": "20a96f8d27dbbc6d25acc9f835ef67d9ded41894b24fb9268771225f73294c1b",
+      "source_bytes": 29479,
+      "copy": "open_s23/p1_main_down_20_l1.xml",
+      "copy_sha256": "648d4c0e53b24e1e1574b31b244eeff9faa0eb4218faf3e5286597046e2d4459",
+      "copy_bytes": 29028,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/p1_main_up_1300_l0.xml",
+      "source_sha256": "bbbad50f05bc939c92aa75c42ea226920bebb5885200f46d219124a51f7ee2ec",
+      "source_bytes": 29308,
+      "copy": "open_s23/p1_main_up_1300_l0.xml",
+      "copy_sha256": "6d9ad19760c93752e70d9b1eba02abb93759529ca1dfd5a63c20cca6a563be9b",
+      "copy_bytes": 28857,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/p1_main_up_1300_l1.xml",
+      "source_sha256": "79659d075c93425225b3b4a749dd4535448978c7fe33d060293a4717a589ea60",
+      "source_bytes": 29452,
+      "copy": "open_s23/p1_main_up_1300_l1.xml",
+      "copy_sha256": "c948d90d8d760ece96a96b6cf774dec72322780eaefeea66cf82ad86910d93aa",
+      "copy_bytes": 29001,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/p1_merge_section_20_l0.xml",
+      "source_sha256": "cb43a882a4578716fefa6e494a6dd3b77d6632ce0cbe0b890bf67f5f0fb7a0a0",
+      "source_bytes": 29675,
+      "copy": "open_s23/p1_merge_section_20_l0.xml",
+      "copy_sha256": "f6015e774fae667ae37323188086edf7784fcf1f4f07dc8b82a27cb83d12e734",
+      "copy_bytes": 29224,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/p1_merge_section_20_l1.xml",
+      "source_sha256": "6a49c510e7cd75ff265ae1522618aabb9109a6efd58e92f288c0abef74e80bbe",
+      "source_bytes": 29856,
+      "copy": "open_s23/p1_merge_section_20_l1.xml",
+      "copy_sha256": "561ae02265d23121d8be43976c59677350b26edf3ce402d50b43a4dcdca18df5",
+      "copy_bytes": 29405,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/p1_merge_section_20_l2.xml",
+      "source_sha256": "83ac096d6f764384a3bae87c2c0f2291ec5d1a9fda2a0e98ef10fcbd3cc01d61",
+      "source_bytes": 30027,
+      "copy": "open_s23/p1_merge_section_20_l2.xml",
+      "copy_sha256": "198109c6f50067fa4426afc3627ce1d1f2f9647386c13a1ecb46b6274fdc8bd9",
+      "copy_bytes": 29576,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/queues.xml",
+      "source_sha256": "3c336335022b58ecb2382586928ffed416ae164c7b324586b355b6301b7281ca",
+      "source_bytes": 942975,
+      "copy": "open_s23/queues.xml",
+      "copy_sha256": "126d2de1ee7509c095d1c396c334a9535fd59f7f8bea3fedd63c14a6df57a593",
+      "copy_bytes": 942524,
+      "xml_element_counts": {
+        "data": 4200,
+        "lane": 5417,
+        "lanes": 4200,
+        "queue-export": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/ramp_storage_e2.xml",
+      "source_sha256": "374a523d9a7d60aca2bddc2710c92207c69581d5ac1522fe92a6de5907bec18a",
+      "source_bytes": 91914,
+      "copy": "open_s23/ramp_storage_e2.xml",
+      "copy_sha256": "4563a2040a5a9fa2b3084b5dcf79b21b45147bcf410c94b3ab699442618b33c7",
+      "copy_bytes": 91463,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/shared_boundary_e2.xml",
+      "source_sha256": "3af6da67f323795d6aa81ff043754449f53777893274e63f7bc99caf4502219d",
+      "source_bytes": 92727,
+      "copy": "open_s23/shared_boundary_e2.xml",
+      "copy_sha256": "e98dcdd3727836d2ddb9a1e7c0fc84c31a0157594491427bbf46bba4cdf21af0",
+      "copy_bytes": 92276,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/sumo_summary.xml",
+      "source_sha256": "6337cba0311e01b074cd464df5015b4b8d1133ff7b484c853aacf8efbf6c6014",
+      "source_bytes": 1173295,
+      "copy": "open_s23/sumo_summary.xml",
+      "copy_sha256": "41bcd9cef2a0327a8d774574811effd6a16c421aef4683bafed8964e4a869d04",
+      "copy_bytes": 1172844,
+      "xml_element_counts": {
+        "step": 4200,
+        "summary": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/tls_states.xml",
+      "source_sha256": "eb38acd516b2d417fb57168897385e69b761dde45c0bccad68afd5f3875ca60c",
+      "source_bytes": 777798,
+      "copy": "open_s23/tls_states.xml",
+      "copy_sha256": "fe54c92f0636bd785e76cbe979b1e2af3aa641dea7095320978c2d5b0e6d5099",
+      "copy_bytes": 777347,
+      "xml_element_counts": {
+        "tlsState": 8400,
+        "tlsStates": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/tripinfo.xml",
+      "source_sha256": "f108a637f13417a0b43aaac5e53ba357a723a176dadd605604cd98843ddfd6b2",
+      "source_bytes": 1879075,
+      "copy": "open_s23/tripinfo.xml",
+      "copy_sha256": "dc58823f757724e0e4bf8519c06aabfc034124489a5ec98fd55d560c80d8846c",
+      "copy_bytes": 1878624,
+      "xml_element_counts": {
+        "tripinfo": 4050,
+        "tripinfos": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/vehroute.xml",
+      "source_sha256": "303256403672fb4a3b691d585fd893e961d08964908f1940585f197ad5c81982",
+      "source_bytes": 1006884,
+      "copy": "open_s23/vehroute.xml",
+      "copy_sha256": "edb1bf3b5387c45d5deda6d66e60bc469858f0e4545f9425909075cfcce0a8f9",
+      "copy_bytes": 1006433,
+      "xml_element_counts": {
+        "route": 4050,
+        "routes": 1,
+        "vehicle": 4050
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/controller_steps.csv",
+      "source_sha256": "ff8650d07b2ba0782ceceb4f20a504ebfacb0af07cde0b4f2d8351f902d3ba96",
+      "source_bytes": 18126955,
+      "copy": "v15_s23/controller_steps.csv",
+      "copy_sha256": "ff8650d07b2ba0782ceceb4f20a504ebfacb0af07cde0b4f2d8351f902d3ba96",
+      "copy_bytes": 18126955,
+      "csv_data_rows": 4200
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/detector_vehicle_events.csv",
+      "source_sha256": "05f8d4cb84a8ea7ed983ede48e00c9598ff604fc99849e2b0897084a41daa39c",
+      "source_bytes": 501151,
+      "copy": "v15_s23/detector_vehicle_events.csv",
+      "copy_sha256": "05f8d4cb84a8ea7ed983ede48e00c9598ff604fc99849e2b0897084a41daa39c",
+      "copy_bytes": 501151,
+      "csv_data_rows": 7148
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/fcd.xml.gz",
+      "source_sha256": "b917ddb4ccb0959ea8bbe1dce2a6a0360dbd1a33ed9123f34ee88d9e68ef0f52",
+      "source_bytes": 8100174,
+      "copy": "v15_s23/fcd.xml.gz",
+      "copy_sha256": "4c62524828611a95070f7b1fd7f0cd02f291b87eff7da99d30aa262998141a5b",
+      "copy_bytes": 7510631,
+      "xml_element_counts": {
+        "fcd-export": 1,
+        "timestep": 4200,
+        "vehicle": 524843
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/feedback_updates.csv",
+      "source_sha256": "adc6f4369db47fe46faffc393b61eaa9c228ea219d0b62108f5d76422a86117e",
+      "source_bytes": 29498,
+      "copy": "v15_s23/feedback_updates.csv",
+      "copy_sha256": "adc6f4369db47fe46faffc393b61eaa9c228ea219d0b62108f5d76422a86117e",
+      "copy_bytes": 29498,
+      "csv_data_rows": 119
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/lanechanges.xml",
+      "source_sha256": "7a88476a4c1ed60e8ce6ef2bba6f6be723fcfe74cf78bb7e0cb53d023cb14a60",
+      "source_bytes": 475129,
+      "copy": "v15_s23/lanechanges.xml",
+      "copy_sha256": "837ea9572981aea0a5e09478eecf0f7be51f163d00a597181f75eff08e7d53a8",
+      "copy_bytes": 474678,
+      "xml_element_counts": {
+        "change": 1277,
+        "lanechanges": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/p1_main_down_200_l0.xml",
+      "source_sha256": "2bc5d509097df09ecc9cc0b32ae7f4c8e9fd737520534f295729bd1ff9fd625e",
+      "source_bytes": 29884,
+      "copy": "v15_s23/p1_main_down_200_l0.xml",
+      "copy_sha256": "588f1ef4ffa18d4aa3bf93e4f124cd978d2ed30bb75d79379b8c76d6818d6157",
+      "copy_bytes": 29433,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/p1_main_down_200_l1.xml",
+      "source_sha256": "c999fbdc9d35216c403b2a6fcc09926a22ec60376aa689019e7eadcd8731da66",
+      "source_bytes": 29889,
+      "copy": "v15_s23/p1_main_down_200_l1.xml",
+      "copy_sha256": "4a6544c9b8f50c1daea2c4337fd18b6ebf1d5424bb857bfa53b5af42fe176445",
+      "copy_bytes": 29438,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/p1_main_down_20_l0.xml",
+      "source_sha256": "cb3cdbee742a5d01ccfce3a0efa5f39c249cbd1c1bba374ff8775724ae234f7e",
+      "source_bytes": 29752,
+      "copy": "v15_s23/p1_main_down_20_l0.xml",
+      "copy_sha256": "d6dfb45fc2a37ac74ecb1ab81ac2424ec6c6961cde2c67198aca3ff2df8f74bc",
+      "copy_bytes": 29301,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/p1_main_down_20_l1.xml",
+      "source_sha256": "d33ec8aa6c2b0679317f6b3971a06c1f997144700e462d1182d7181023b3a4f4",
+      "source_bytes": 29748,
+      "copy": "v15_s23/p1_main_down_20_l1.xml",
+      "copy_sha256": "75939bd03db69c51e56dab6d670929d3f9cf81fb9d0ac1ce53caf3dd6171edb9",
+      "copy_bytes": 29297,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/p1_main_up_1300_l0.xml",
+      "source_sha256": "3e7fdd16353b8e35b6b4e62f00151999abd2349d8f61aff7d16770d1f8d3041d",
+      "source_bytes": 29671,
+      "copy": "v15_s23/p1_main_up_1300_l0.xml",
+      "copy_sha256": "0d0aac4e1fd9c9044d573968ffe1350f86b3ab8571e5b5c3ac58eec017e21122",
+      "copy_bytes": 29220,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/p1_main_up_1300_l1.xml",
+      "source_sha256": "afe32fb5ed6f435719578099e35277418ed178b3c63c730b396b5222c2b1fa8c",
+      "source_bytes": 29706,
+      "copy": "v15_s23/p1_main_up_1300_l1.xml",
+      "copy_sha256": "9a7d156eaa8bbf5ddc64f0ec22b64ffa714741c9ebff889b2fb6954b73542dd2",
+      "copy_bytes": 29255,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/p1_merge_section_20_l0.xml",
+      "source_sha256": "9935596fe7051bf5cc15822921956f9d24528674f304bbc2f7d58b1b6c981277",
+      "source_bytes": 29921,
+      "copy": "v15_s23/p1_merge_section_20_l0.xml",
+      "copy_sha256": "a1669c4053e877d67501c83b9684028a261a61661a1eb12da8dcbf861659bc8e",
+      "copy_bytes": 29470,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/p1_merge_section_20_l1.xml",
+      "source_sha256": "e00839cfc9ef27147720122e4756ec3c011285e6215e9b0e75495893904a5e7c",
+      "source_bytes": 30287,
+      "copy": "v15_s23/p1_merge_section_20_l1.xml",
+      "copy_sha256": "578cbcbfe3d2db9224008d2e856267464c163a5f05901df25944d9b30a31d5b0",
+      "copy_bytes": 29836,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/p1_merge_section_20_l2.xml",
+      "source_sha256": "981148b3f2ac25deb7a7175c8e8e3b0e92a0c66cca7e2ee1b003c56d300d7289",
+      "source_bytes": 30272,
+      "copy": "v15_s23/p1_merge_section_20_l2.xml",
+      "copy_sha256": "3cd2708c89e12a7b8bb0d5d09310e80be605d3df4bef44e6e449228ab2cd2d56",
+      "copy_bytes": 29821,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/queues.xml",
+      "source_sha256": "32b29a78711bf50289b27662014c972aa4ba9d767c32c0995f2c6ee96398a059",
+      "source_bytes": 2002002,
+      "copy": "v15_s23/queues.xml",
+      "copy_sha256": "de51d115a5813a916acfdadba2a11ab3119e753f0cc9e63b8b3aee9ed4892889",
+      "copy_bytes": 2001551,
+      "xml_element_counts": {
+        "data": 4200,
+        "lane": 13876,
+        "lanes": 4200,
+        "queue-export": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/ramp_storage_e2.xml",
+      "source_sha256": "9fdfeef8050bbd90da54956f784e7f459dcc79160941d83ba5393013c6ed7deb",
+      "source_bytes": 94042,
+      "copy": "v15_s23/ramp_storage_e2.xml",
+      "copy_sha256": "46b562f0c845504e3cdc6e6f08cef30595e664e09b8453bbe28ddd9c30e3cbc6",
+      "copy_bytes": 93591,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/service_windows.csv",
+      "source_sha256": "b002d8d925390d8fa550bd8370cbb0121deacb44dd1eebd4611b14c80ea61b9c",
+      "source_bytes": 1960,
+      "copy": "v15_s23/service_windows.csv",
+      "copy_sha256": "b002d8d925390d8fa550bd8370cbb0121deacb44dd1eebd4611b14c80ea61b9c",
+      "copy_bytes": 1960,
+      "csv_data_rows": 31
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/shared_boundary_e2.xml",
+      "source_sha256": "003b41a4d97d89c458dc7f234c346dc4688458df8449ac645f0bfd66a87db1af",
+      "source_bytes": 93965,
+      "copy": "v15_s23/shared_boundary_e2.xml",
+      "copy_sha256": "8a2a7787791bb9ab4aed18663da93f5eea4b2b2539f30a01d3ea384d55153f62",
+      "copy_bytes": 93514,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/sumo_summary.xml",
+      "source_sha256": "78539138fe5452de275d2abb9e4fdcaf888a6c91031c135f799eb6c4c0392dcb",
+      "source_bytes": 1178875,
+      "copy": "v15_s23/sumo_summary.xml",
+      "copy_sha256": "a82192868c3b6c2629e7858d7da17e18922746a510a1379daeac3480e611603e",
+      "copy_bytes": 1178424,
+      "xml_element_counts": {
+        "step": 4200,
+        "summary": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/tls_states.xml",
+      "source_sha256": "f8b03b302f651e04f62d7d5d1976e8c41001202dd2509db84bf8d0a2754ca2fb",
+      "source_bytes": 778085,
+      "copy": "v15_s23/tls_states.xml",
+      "copy_sha256": "f940dd2b689f67e214e0b25aa200a6576668dee0e1a0967e594d237b800f732f",
+      "copy_bytes": 777634,
+      "xml_element_counts": {
+        "tlsState": 8400,
+        "tlsStates": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/tripinfo.xml",
+      "source_sha256": "49c30c12672840f03e5974d8d00e5b8ca61f442be14c951c8e9d9c762f43f07d",
+      "source_bytes": 1879501,
+      "copy": "v15_s23/tripinfo.xml",
+      "copy_sha256": "7681cf32790886d1e1488baf16fc376699a6692c42f862af806a93077f1a27a2",
+      "copy_bytes": 1879050,
+      "xml_element_counts": {
+        "tripinfo": 4050,
+        "tripinfos": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/vehicle_metadata.csv",
+      "source_sha256": "b8206116ba22045c100eb40945e2f3178afa3107c6be6165341fa91932a11ab8",
+      "source_bytes": 190615,
+      "copy": "v15_s23/vehicle_metadata.csv",
+      "copy_sha256": "b8206116ba22045c100eb40945e2f3178afa3107c6be6165341fa91932a11ab8",
+      "copy_bytes": 190615,
+      "csv_data_rows": 4050
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/vehroute.xml",
+      "source_sha256": "00a8106cb25d35c18a0fc67920a8178de036d08f0bf74d3922218fb8e3b08dd6",
+      "source_bytes": 1006248,
+      "copy": "v15_s23/vehroute.xml",
+      "copy_sha256": "5b428eed23b84fada1339424342416d64028035920289d1b2140f63cddbe6fef",
+      "copy_bytes": 1005797,
+      "xml_element_counts": {
+        "route": 4050,
+        "routes": 1,
+        "vehicle": 4050
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/fcd.xml.gz",
+      "source_sha256": "fb62530277e3a57018d844ce794630185c23a096f62d459278c68c4b445f56fa",
+      "source_bytes": 7467068,
+      "copy": "open_s42/fcd.xml.gz",
+      "copy_sha256": "c53c644f5cdcccaebd7bd4b939d369de6cfdefd1565dab479820632d1e95835f",
+      "copy_bytes": 7091473,
+      "xml_element_counts": {
+        "fcd-export": 1,
+        "timestep": 4200,
+        "vehicle": 488214
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/lanechanges.xml",
+      "source_sha256": "fcc58f11c836a26e37f506e92a25b16346a36f5ed0ab996125829e3ce53ba41e",
+      "source_bytes": 488566,
+      "copy": "open_s42/lanechanges.xml",
+      "copy_sha256": "0c8628cb545180599115f34b1a95db1510f7b214304fa6fff9b423c08622832d",
+      "copy_bytes": 488115,
+      "xml_element_counts": {
+        "change": 1325,
+        "lanechanges": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/p1_main_down_200_l0.xml",
+      "source_sha256": "820b16a76ff033faddf536934dfd82c9acb429d691e40b972f73a37a39e0e661",
+      "source_bytes": 29583,
+      "copy": "open_s42/p1_main_down_200_l0.xml",
+      "copy_sha256": "d1133fca089e7fcc6df40354098bb6e588180f585d35b24b5f3c8a64ad5dbd14",
+      "copy_bytes": 29132,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/p1_main_down_200_l1.xml",
+      "source_sha256": "2c8909594b28bb763c626d5a93fae62cdcb83bcaac0d531cfc8e47c133b3569d",
+      "source_bytes": 29626,
+      "copy": "open_s42/p1_main_down_200_l1.xml",
+      "copy_sha256": "5aa6110309f65e5502063074ef3fb6d2d9995fe3f12d8849770c0e2ef23845a3",
+      "copy_bytes": 29175,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/p1_main_down_20_l0.xml",
+      "source_sha256": "5232c6fd6758359bc4c0328d4e06a455fc582063942d9b079395d809d046529b",
+      "source_bytes": 29475,
+      "copy": "open_s42/p1_main_down_20_l0.xml",
+      "copy_sha256": "b92537a145047ffa37c03228350436f9bd8839fceedb2b4e7351ee8a64dd08de",
+      "copy_bytes": 29024,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/p1_main_down_20_l1.xml",
+      "source_sha256": "581a68209813f1b5aa4cd22230e99e272df211d9d286e0340a61d84f4fdc0237",
+      "source_bytes": 29484,
+      "copy": "open_s42/p1_main_down_20_l1.xml",
+      "copy_sha256": "6493a5acd7b7fc51dffbb8e787c897fbc8671d0c7b5ea43b094f8848b0e590ae",
+      "copy_bytes": 29033,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/p1_main_up_1300_l0.xml",
+      "source_sha256": "051187b2e9088f9bc37112b32cefb88300c18d6c522f28db9500e084846b7718",
+      "source_bytes": 29269,
+      "copy": "open_s42/p1_main_up_1300_l0.xml",
+      "copy_sha256": "2483392431544196d0228600550e74119b54d51ce38c36dfe1c52bebba315616",
+      "copy_bytes": 28818,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/p1_main_up_1300_l1.xml",
+      "source_sha256": "33ee41c4c714f7be8147a2d634b3ace41edfc96bddfc0b0f2ad475fa6c6fa60d",
+      "source_bytes": 29465,
+      "copy": "open_s42/p1_main_up_1300_l1.xml",
+      "copy_sha256": "242e3d52f50c71944aed2a514e404f1c84c0cefac6288890684ff75bf0f19fc2",
+      "copy_bytes": 29014,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/p1_merge_section_20_l0.xml",
+      "source_sha256": "93bf5ade96a26ee21a482c202c33724e18b343b7d5b826a7a19849982bbe6f0b",
+      "source_bytes": 29675,
+      "copy": "open_s42/p1_merge_section_20_l0.xml",
+      "copy_sha256": "fcb471623eec57e4e3c83dc817c99a8f8969e701900c2966ca3f597103bdd11c",
+      "copy_bytes": 29224,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/p1_merge_section_20_l1.xml",
+      "source_sha256": "396965f4ccc8bf955f7585c37810a515e4f38fffa9b515f2799d7b90187bbe12",
+      "source_bytes": 29809,
+      "copy": "open_s42/p1_merge_section_20_l1.xml",
+      "copy_sha256": "4e1a5e56951a1f7d179a164e79109c84d561e77ca8754d847317fdc3f614e62c",
+      "copy_bytes": 29358,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/p1_merge_section_20_l2.xml",
+      "source_sha256": "32e0b88648b3e3ffee4ab3d5f3ede35b33dbba38955557f236401b38e075084b",
+      "source_bytes": 30032,
+      "copy": "open_s42/p1_merge_section_20_l2.xml",
+      "copy_sha256": "ac42eda5e2a1ae862e1c3a85ae307460dca266b1bac5d7408e72ee72a5640627",
+      "copy_bytes": 29581,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/queues.xml",
+      "source_sha256": "20134dd2416849496e8630b7278cd2108fff9cae82c14ac313b073ffd2d609ad",
+      "source_bytes": 1063155,
+      "copy": "open_s42/queues.xml",
+      "copy_sha256": "2bc218192e4ce774aff1076338a58c99c95efa7ee4718ac32de04c18d39cd4ff",
+      "copy_bytes": 1062704,
+      "xml_element_counts": {
+        "data": 4200,
+        "lane": 6411,
+        "lanes": 4200,
+        "queue-export": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/ramp_storage_e2.xml",
+      "source_sha256": "d458d78a04be6568770e9838c4684354ecccb93f0b05e60821a831dc76755571",
+      "source_bytes": 91921,
+      "copy": "open_s42/ramp_storage_e2.xml",
+      "copy_sha256": "693044525fa698e95b9c77f3a1f505a70af95434847e42a68ae2f6e2c208caa3",
+      "copy_bytes": 91470,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/shared_boundary_e2.xml",
+      "source_sha256": "9931f0024780540f66857105ccec55bde4e246aa2a78a9b86b6bd445628dae1e",
+      "source_bytes": 92737,
+      "copy": "open_s42/shared_boundary_e2.xml",
+      "copy_sha256": "b5bd71db81b9ab3bb0b558b9145cf875ba8e58772ed03a4b99173acb79ce9eb1",
+      "copy_bytes": 92286,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/sumo_summary.xml",
+      "source_sha256": "b5fb9e3bce46b100eca1dc35b5132d43fd318696fbfc96cf042d342b9bba4c12",
+      "source_bytes": 1174803,
+      "copy": "open_s42/sumo_summary.xml",
+      "copy_sha256": "aad6792e8b42b5b37bd1ff4b65a83adf4f5dec7f6bc551159195dc7914eeac3f",
+      "copy_bytes": 1174352,
+      "xml_element_counts": {
+        "step": 4200,
+        "summary": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/tls_states.xml",
+      "source_sha256": "78103388429ba0380fdad891ba0740bdbd5f937ab2cdde07c6fd961848ca507f",
+      "source_bytes": 777798,
+      "copy": "open_s42/tls_states.xml",
+      "copy_sha256": "b7d8e22e223742030c5d21f0490a33bb2b412e5fda6ec8251ef21228808c3f3e",
+      "copy_bytes": 777347,
+      "xml_element_counts": {
+        "tlsState": 8400,
+        "tlsStates": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/tripinfo.xml",
+      "source_sha256": "1ef5f9f802279d7d03240dbceee9016f9aa195df50b6bb0f62600c40d431135c",
+      "source_bytes": 1880123,
+      "copy": "open_s42/tripinfo.xml",
+      "copy_sha256": "a433578dc68c137b20239564eeaf69bca9e980d4a927fa5d6dcf71a49e02a63b",
+      "copy_bytes": 1879672,
+      "xml_element_counts": {
+        "tripinfo": 4050,
+        "tripinfos": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/vehroute.xml",
+      "source_sha256": "4e9370778209dab28c66ddee6fcfba5ef272cba4f5d764591fd3e09a14ed847e",
+      "source_bytes": 1006341,
+      "copy": "open_s42/vehroute.xml",
+      "copy_sha256": "da98f20297d164626b62ec3e09aa92c43db8c8911012dbeff3132e0548401a4f",
+      "copy_bytes": 1005890,
+      "xml_element_counts": {
+        "route": 4050,
+        "routes": 1,
+        "vehicle": 4050
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/controller_steps.csv",
+      "source_sha256": "d25288b82f4b4d036b0a9fdbbb4a6f7e5b8f22a91b61330bd38b67d2c1c4f65a",
+      "source_bytes": 18376739,
+      "copy": "v15_s42/controller_steps.csv",
+      "copy_sha256": "d25288b82f4b4d036b0a9fdbbb4a6f7e5b8f22a91b61330bd38b67d2c1c4f65a",
+      "copy_bytes": 18376739,
+      "csv_data_rows": 4200
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/detector_vehicle_events.csv",
+      "source_sha256": "787131b3298dd0dd2b1d511b1b2da6027b52986591a061d2e3a236e0a0eee329",
+      "source_bytes": 500135,
+      "copy": "v15_s42/detector_vehicle_events.csv",
+      "copy_sha256": "787131b3298dd0dd2b1d511b1b2da6027b52986591a061d2e3a236e0a0eee329",
+      "copy_bytes": 500135,
+      "csv_data_rows": 7141
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/fcd.xml.gz",
+      "source_sha256": "ba3c3a9bfd6cbd9636477e2d3251ff90476b9942c950a17b002ce5dd4d2fcee4",
+      "source_bytes": 8168628,
+      "copy": "v15_s42/fcd.xml.gz",
+      "copy_sha256": "b8bd4b06b4e65fa96f05907270d323a56b2420b51b889272fe9ccef992055238",
+      "copy_bytes": 7573106,
+      "xml_element_counts": {
+        "fcd-export": 1,
+        "timestep": 4200,
+        "vehicle": 528419
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/feedback_updates.csv",
+      "source_sha256": "eff922938b5222c552bdbe5fee10e09788f796949dd11c39173c6a4d6aed9122",
+      "source_bytes": 29314,
+      "copy": "v15_s42/feedback_updates.csv",
+      "copy_sha256": "eff922938b5222c552bdbe5fee10e09788f796949dd11c39173c6a4d6aed9122",
+      "copy_bytes": 29314,
+      "csv_data_rows": 119
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/lanechanges.xml",
+      "source_sha256": "688498b08a3e1d9987583c4bb3d4b7ca01e0fe7896831647ef446942c22a5b69",
+      "source_bytes": 468778,
+      "copy": "v15_s42/lanechanges.xml",
+      "copy_sha256": "7934cac078fa5d6e80c6d4322f427357adbfb4cb232bcf51e33dca46d2dac6f8",
+      "copy_bytes": 468327,
+      "xml_element_counts": {
+        "change": 1260,
+        "lanechanges": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/p1_main_down_200_l0.xml",
+      "source_sha256": "67f400556a432dbbfcdf8ea52642bd29ad8cd9bed6f2033a4eae59235231a3f4",
+      "source_bytes": 29887,
+      "copy": "v15_s42/p1_main_down_200_l0.xml",
+      "copy_sha256": "a910f885aa2a0370c4613cac98b6e615861c4f3e0bda7b2438b17c4e62bf5ded",
+      "copy_bytes": 29436,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/p1_main_down_200_l1.xml",
+      "source_sha256": "712053ce5da500ec30ceb79a1f2820a29bb24a1fc37d8718ee7c5f8293e32d4c",
+      "source_bytes": 29881,
+      "copy": "v15_s42/p1_main_down_200_l1.xml",
+      "copy_sha256": "e575df8834a14de5fcaf43c4816c529dbd602278097ff3866073ef686308e8e5",
+      "copy_bytes": 29430,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/p1_main_down_20_l0.xml",
+      "source_sha256": "ee1c5f1a0e6ecff4ba6266f8520250954d56bd093750aedc1455a9ad2cc2476b",
+      "source_bytes": 29750,
+      "copy": "v15_s42/p1_main_down_20_l0.xml",
+      "copy_sha256": "d9deaaf857ea71f7e02a3188dc5d1a29903038cd474c0e6ea3848c84cedf634b",
+      "copy_bytes": 29299,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/p1_main_down_20_l1.xml",
+      "source_sha256": "466340ba77264017336df64d6e1cc7d617168895ccf63c39faf9bf1a799eca00",
+      "source_bytes": 29739,
+      "copy": "v15_s42/p1_main_down_20_l1.xml",
+      "copy_sha256": "529cf425f4169355584c28372da5a6930279a848c1aa57e915ba353779ba986e",
+      "copy_bytes": 29288,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/p1_main_up_1300_l0.xml",
+      "source_sha256": "c80fd2f987ec07b8b458ca777e6596f1b8a47bf18ede039822a7de0baba96da5",
+      "source_bytes": 29664,
+      "copy": "v15_s42/p1_main_up_1300_l0.xml",
+      "copy_sha256": "f998d2c4769c807d019a07da55b0d56c65c930d786008b5cd0c6ea868a281c5a",
+      "copy_bytes": 29213,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/p1_main_up_1300_l1.xml",
+      "source_sha256": "06af56fd52e9df8210b5996e145d4ed388e152d67fc595bce81fa1d717434263",
+      "source_bytes": 29711,
+      "copy": "v15_s42/p1_main_up_1300_l1.xml",
+      "copy_sha256": "31dee35c4eb444e0c3d5b76895b7fc4f4f051152a2d18bd9c40762f540f13c31",
+      "copy_bytes": 29260,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/p1_merge_section_20_l0.xml",
+      "source_sha256": "ed179ece1565b56ae32807b3fc352982e089590b3e5f798f8433120e2fabf603",
+      "source_bytes": 29926,
+      "copy": "v15_s42/p1_merge_section_20_l0.xml",
+      "copy_sha256": "b3db33a7257e9adb548966d736481319f63ce7678756d4f085a675f988cb3ba1",
+      "copy_bytes": 29475,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/p1_merge_section_20_l1.xml",
+      "source_sha256": "39ed99612b6a3bfa203129d754bc75d7942b711898f3b53a41062d295a3967e7",
+      "source_bytes": 30282,
+      "copy": "v15_s42/p1_merge_section_20_l1.xml",
+      "copy_sha256": "cd4f126257433a0a511da7ed580bec4dbe3805d0254565f5cd5cd54f3152170d",
+      "copy_bytes": 29831,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/p1_merge_section_20_l2.xml",
+      "source_sha256": "cc9eb5114eb3154bd103e0fcf45f22b6b704e1e560db5f54764cb8a0a700f2a1",
+      "source_bytes": 30273,
+      "copy": "v15_s42/p1_merge_section_20_l2.xml",
+      "copy_sha256": "fbf783f4caa89e8ee25031a7e05bb93f8d2efb2c1f29e086e4995d9916dee20d",
+      "copy_bytes": 29822,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/queues.xml",
+      "source_sha256": "6f37b9a81aa85d608f52f4722f25a3904a508fd1a7cc330ab6cf0aed80667251",
+      "source_bytes": 2050699,
+      "copy": "v15_s42/queues.xml",
+      "copy_sha256": "17fccc69f75772c5d489c7a8f6684d1e80aadc46e19ba475b96bdd38d1d528e6",
+      "copy_bytes": 2050248,
+      "xml_element_counts": {
+        "data": 4200,
+        "lane": 14271,
+        "lanes": 4200,
+        "queue-export": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/ramp_storage_e2.xml",
+      "source_sha256": "141f3ae3aa09a0cabe4bf59a9f61338a51f166667209d633e7f60f79a14adc0b",
+      "source_bytes": 94053,
+      "copy": "v15_s42/ramp_storage_e2.xml",
+      "copy_sha256": "2d678e7a8d4a4e6808dcc3fe0323433fb5bf2bd3258ffbf284dbac13f70db98c",
+      "copy_bytes": 93602,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/service_windows.csv",
+      "source_sha256": "70fdf3bb0b72cb06d3cdfe42e99a0d142007d096ce1f94f0f86b6334cf90bbbd",
+      "source_bytes": 1960,
+      "copy": "v15_s42/service_windows.csv",
+      "copy_sha256": "70fdf3bb0b72cb06d3cdfe42e99a0d142007d096ce1f94f0f86b6334cf90bbbd",
+      "copy_bytes": 1960,
+      "csv_data_rows": 31
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/shared_boundary_e2.xml",
+      "source_sha256": "95721842e72a75b525bb273aaae59b4c1057e947f28235d83826e3f2827d14f8",
+      "source_bytes": 94011,
+      "copy": "v15_s42/shared_boundary_e2.xml",
+      "copy_sha256": "2302d1ba726260f15666cac36c9f1cb6ae615b70ec8b5c951c484b97b4a07a5d",
+      "copy_bytes": 93560,
+      "xml_element_counts": {
+        "detector": 1,
+        "interval": 140
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/sumo_summary.xml",
+      "source_sha256": "a8174fd858292a9625cf15d23d89e1d3cc44cc026b3eee5c976f85ea4bb9d633",
+      "source_bytes": 1179339,
+      "copy": "v15_s42/sumo_summary.xml",
+      "copy_sha256": "323e97623475f2b9aa64698c9d181c535207e2eb9a60e3475b77c3897579e3f3",
+      "copy_bytes": 1178888,
+      "xml_element_counts": {
+        "step": 4200,
+        "summary": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/tls_states.xml",
+      "source_sha256": "c69c8fedeb6559fe5c774a60b68bfee069ef667e76558bf589ced3dbc3ecbbc8",
+      "source_bytes": 778085,
+      "copy": "v15_s42/tls_states.xml",
+      "copy_sha256": "46a2ca9ef51ec6e4ad56d1878754371c7168c69d496da9c28ea8bf3808fab7d4",
+      "copy_bytes": 777634,
+      "xml_element_counts": {
+        "tlsState": 8400,
+        "tlsStates": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/tripinfo.xml",
+      "source_sha256": "a52487f615669079e076b2165ef128426847d2270473f308086ee8a2092de156",
+      "source_bytes": 1879433,
+      "copy": "v15_s42/tripinfo.xml",
+      "copy_sha256": "3a5ff77801e34ca2eda9e31a4c4655fe1c17d722f06bfaf577360eb3dc2094c5",
+      "copy_bytes": 1878982,
+      "xml_element_counts": {
+        "tripinfo": 4050,
+        "tripinfos": 1
+      }
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/vehicle_metadata.csv",
+      "source_sha256": "8a6436c2c6fe4bd5409dd49bcc62c7c89d37bf85c0fc123910e1eb29bdbb2cee",
+      "source_bytes": 190615,
+      "copy": "v15_s42/vehicle_metadata.csv",
+      "copy_sha256": "8a6436c2c6fe4bd5409dd49bcc62c7c89d37bf85c0fc123910e1eb29bdbb2cee",
+      "copy_bytes": 190615,
+      "csv_data_rows": 4050
+    },
+    {
+      "classification": "derived_public_copy",
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/vehroute.xml",
+      "source_sha256": "f85cd419d53d00b8d4c51ce29d17dbd98fddc25c03619cb8e6884443f7f08563",
+      "source_bytes": 1006142,
+      "copy": "v15_s42/vehroute.xml",
+      "copy_sha256": "6c278ca91dd21e175015826fc6d5828eab7559f29109c31a7527c9f3e9879bd9",
+      "copy_bytes": 1005691,
+      "xml_element_counts": {
+        "route": 4050,
+        "routes": 1,
+        "vehicle": 4050
+      }
+    }
+  ],
+  "excluded_source_files": [
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/execution_receipt.json",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/stderr.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/stdout.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/sumo.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S17/outputs/sumo_error.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/execution_receipt.json",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/startup_context.json",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/startup_probe.jsonl",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/sumo.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/sumo_error.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/sumo_stderr.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/sumo_stdout.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/traci_startup.jsonl",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/worker_stderr.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S17_ALINEA_TRACI_V15/outputs/worker_stdout.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/execution_receipt.json",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/stderr.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/stdout.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/sumo.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S23/outputs/sumo_error.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/execution_receipt.json",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/startup_context.json",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/startup_probe.jsonl",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/sumo.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/sumo_error.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/sumo_stderr.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/sumo_stdout.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/traci_startup.jsonl",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/worker_stderr.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S23_ALINEA_TRACI_V15/outputs/worker_stdout.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/execution_receipt.json",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/stderr.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/stdout.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/sumo.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_boundary_search_20261002_v1/M3600_R900_S42/outputs/sumo_error.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/execution_receipt.json",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/startup_context.json",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/startup_probe.jsonl",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/sumo.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/sumo_error.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/sumo_stderr.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/sumo_stdout.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/traci_startup.jsonl",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/worker_stderr.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    },
+    {
+      "source": "data/raw/stage6_standard_metering_20261003_v1/M3600_R900_S42_ALINEA_TRACI_V15/outputs/worker_stdout.log",
+      "reason": "auxiliary execution, startup, log, or receipt material"
+    }
+  ]
+}
