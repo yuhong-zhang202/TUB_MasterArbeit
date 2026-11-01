@@ -29,6 +29,22 @@ explain the selection and provenance. The complete later controllers and large
 raw development outputs are not distributed here. Questions about additional
 material can be raised through this repository's Issues; access is not automatic.
 
+## Supporting data and figures
+
+The [source notes](../results/development/SOURCES.md) describe fields, units and
+selection rules for four additional files: Pilot speed cells, QP900 time series
+and meter-passage intervals, and the complete QP1080 cycle table. They retain
+missing observations and partial cycles. Together with the summary tables,
+these CSVs supply the three published development figures. The
+[plotting script](../results/development/plot_figures.py) can redraw them using
+only public data; the source notes give the command and dependencies.
+
+Large raw outputs for the later Pilot, sensitivity and QP studies are retained
+in private archives. Requests for specific material can be made through Issues
+and considered individually. Six early Stage2 runs have missing original raw
+files; retained diagnostic summaries do not make those runs replayable. The
+six-run Stage6 sample linked below is a separate, publicly supplied dataset.
+
 ## Conditions and vehicle groups
 
 `M` denotes freeway mainline vehicles, `R` ramp-bound vehicles, `U` urban-through

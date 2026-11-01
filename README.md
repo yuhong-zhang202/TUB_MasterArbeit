@@ -19,7 +19,7 @@ part of the approach. The scene has not been calibrated against a real road.
 ## Read the study
 
 1. [Research progress and results](docs/development_findings.md): how demand
-   exploration led to ALINEA sensitivity tests, queue protection and a higher-rate
+   exploration and model preparation led to ALINEA sensitivity tests, queue protection and a higher-rate
    candidate that did not work as intended.
 2. [Data and measures](docs/data.md): the experiment index, seed-level results,
    time costs, source waiting and vehicles remaining at the simulation end.
