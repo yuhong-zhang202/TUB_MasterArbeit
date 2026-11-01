@@ -10,6 +10,15 @@ The project asks whether restricting traffic at an on-ramp can relieve freeway
 congestion, how much extra waiting this creates on the ramp and upstream urban
 roads, and whether a control range can be found that works for both sides.
 
+## Later development findings
+
+See [selected development findings](docs/development_findings.md) for demand
+location, ALINEA target sensitivity, one QP900 case and the QP1080 negative result.
+These summaries are separate from the existing Stage6 replay sample. This repository
+does not contain the complete later controller implementation. Historical `V15`
+is an implementation label, not the later 15% target experiment. Formal experiments
+remain pending protocol approval.
+
 ## Traffic scenario
 
 The synthetic network consists of a two-lane freeway, an entrance ramp and an
@@ -162,7 +171,3 @@ Code, scenario input configurations and software documentation are licensed unde
 [MIT](LICENSE). The published outputs, summary tables and schematic are licensed
 under [CC BY 4.0](DATA_LICENSE.md). Please credit Yuhong Zhang and this repository
 when reusing the data, and describe any changes you make.
-
-## Later development findings
-
-See [selected development findings](docs/development_findings.md) for demand location, ALINEA target sensitivity, one QP900 case and the QP1080 negative result. These summaries are separate from the existing Stage6 replay sample. Historical `V15` is an implementation label, not the later 15% target experiment. Formal experiments remain pending protocol approval.
