@@ -12,10 +12,52 @@ explains the common time-cost and discharge definitions. The earlier public
 OPEN/V15 replay sample is a separate dataset: V15 is an implementation label,
 not a 15% occupancy target.
 
+## Early exploration and model preparation
+
+The network was chosen to make a specific trade-off visible: ramp-bound and
+urban-through vehicles share an approach before separating, so limited ramp
+storage can affect both groups. The two-lane freeway, terminating acceleration
+lane and upstream junction form a simplified synthetic scene, not a model
+calibrated to a particular road. The intended outcome was a useful range of
+control conditions, rather than one universally optimal setting.
+
+Early September checks showed that eventual arrival did not establish how much
+demand entered during loading. Measurement corrections included waiting outside
+the network and vehicles on internal connecting lanes. An upstream detector
+that overlapped vehicle insertion was unsuitable for interpreting traffic state.
+These corrections changed the measurement interpretation; early runs used
+different demand and timing and are not pooled with the later comparisons.
+
+An 18-run uncontrolled search then explored mainline demand from 2,400 to 4,200
+vehicles/hour. At 3,600, three-seed checks placed shorter disturbances at ramp
+demand 750 and persistent severe congestion at 900. This located a useful
+comparison range, rather than measuring an exact capacity. The subsequent
+[three matched OPEN/V15 cases](data.md#historical-replay-files-and-verification),
+using an 11% target, improved mainline
+conditions but increased ramp, urban and total time costs. Local shared-road
+obstruction was observed, while the predefined 30-second continuous slow-queue
+chain was absent in all three cases. Those historical results remain available
+in the [public replay sample](reproduction.md).
+
+Actuator checks then found that requested rates could exceed actual releases.
+The revised signal implementation used explicit green, yellow and red phases,
+with separate records of requested rates, cycle allowances and actual crossings.
+Run10 supported its use in one fixed natural-demand case and six 300-second
+windows. Its full-period tracking failure remained in the record, with fewer
+ramp vehicles available in total than the integrated request. Earlier
+actuator failures remain useful diagnostics, but their control effects cannot
+be pooled with results from the revised implementation. The compatible Run10
+case later supplied the 11% seed 17 sensitivity baseline.
+
+The later Pilot filled in the demand range and counted actual lane changes from
+the acceleration lane into the mainline. Entering the merge area alone did not
+count as a completed merge. The following sections trace that demand comparison
+and the subsequent controller studies.
+
 ## 1. Uncontrolled Pilot and demand selection
 
-Before comparing controllers, the study needed demand conditions ranging from a
-lighter load to persistent freeway congestion. Mainline demand was held at 3,600
+To choose demand conditions for the broader strategy comparison, the Pilot
+covered lighter loads through persistent freeway congestion. Mainline demand was held at 3,600
 vehicles/hour across the two freeway lanes. Nine new OPEN runs—no ramp metering—
 covered ramp demands of 800, 850 and 950 vehicles/hour with seeds 17, 23 and 42. Six
 existing runs at 750 and 900 provided the endpoints.
