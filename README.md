@@ -31,6 +31,8 @@ proposed control setting. The larger, paired formal comparison is still being
 prepared. The [run index](results/development/run_index.csv) records completed,
 interrupted and unstarted cases alongside their result locations.
 
+See the [latest development integration status](docs/integration_status.md) for the bounded private pipeline checks and remaining formal-study decisions.
+
 ## What is available
 
 | Material | Contents |
