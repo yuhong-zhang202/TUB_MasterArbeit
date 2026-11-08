@@ -7,11 +7,13 @@ vehicle-level traffic simulator, to study that trade-off. Ramp metering controls
 how quickly vehicles enter the freeway. It may protect mainline traffic while
 moving waiting time onto the ramp and shared urban approaches.
 
-The work uses a synthetic network: a two-lane freeway, one entrance ramp and an
-upstream signalised intersection. Ramp-bound and urban-through vehicles share
-part of the approach. The scene has not been calibrated against a real road.
+The work uses a synthetic network with a two-lane freeway, one entrance ramp
+and an upstream signalised intersection. The ramp adds a third lane through
+the merge, and the freeway returns to two lanes where that lane ends.
+Ramp-bound and urban-through vehicles share part of the approach. The scene
+has not been calibrated against a real road.
 
-![Traffic scenario and vehicle movements](docs/assets/traffic_scenario.png)
+![Traffic scenario with two freeway lanes upstream, three through the merge and two downstream](docs/assets/traffic_scenario.png)
 
 *Conceptual layout; the simulation network is supplied in
 [config/reproduction/network.net.xml](config/reproduction/network.net.xml).*
