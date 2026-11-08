@@ -11,3 +11,25 @@ The development work also compared temporary continuous green (A) with extended 
 The proposed experiment plan uses four ramp demands (700, 800, 850 and 900 veh/h), a constant 13% occupancy target, and OPEN, ALINEA and ALINEA plus temporary continuous-green Queue Override using the same ten seeds per strategy, for 120 planned runs. The freeway demand remains 3600 veh/h. Exact seed identities, thresholds and detailed acceptance rules are project-level choices requiring review.
 
 Formal experiments have not started. The private formal protocol is a proposed draft, pending user review and unfrozen. It retains unresolved safety/rate qualification limits and explicit failure/censoring decisions. The full main series should wait for feedback from the intermediate presentation. This public notice summarizes private project records; the correspondence and complete protocol are not published here.
+
+## Queue protection candidate comparison
+
+A later development study compared three ways to request temporary
+continuous green under ALINEA: the distance to the rearmost slow ramp
+vehicle, vehicle occupancy at a fixed point, and groups of closely spaced
+slow ramp vehicles. The third method also tracks vehicles until they clear
+the recovery threshold.
+
+The fixed-point method initially undercounted the time vehicles occupied
+the detector across simulation steps. After correcting the timing and
+checking it against the simulator's detector output, the repaired method
+was included in the comparison. In this one matched development case,
+the distance-based method had the lowest total system time. The repaired
+fixed-point method had lower mainline time, while the slow-vehicle group
+method had lower ramp time.
+
+We also checked whether adding a gap check to the distance-based method
+would change when protection started. The offline replay kept every
+recorded activation at the same time, so we deferred the idea. These are
+development findings from a single matched comparison. Formal experiments
+have not started.
